@@ -93,3 +93,12 @@ here is a list of the table views in case you need to replace a table that depen
  2 plot_annual_cultivation_practices_calculated_view
  4 view_growers_annaul_cultivation_practices
  5 view_p_a_c_p_    plot_annual_cultivation_practices
+
+
+### 🌱 License Note
+
+This project is **copyleft** and open source.
+
+You are free to use, modify, and redistribute it under the terms of the **GNU General Public License v3**, as long as you **attribute the original source** and **keep it open for others**.
+
+See the full LICENSE file for details.
