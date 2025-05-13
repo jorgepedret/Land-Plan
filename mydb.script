@@ -1,0 +1,156 @@
+SET DATABASE UNIQUE NAME HSQLDB3E206C3A89
+SET DATABASE GC 0
+SET DATABASE DEFAULT RESULT MEMORY ROWS 0
+SET DATABASE EVENT LOG LEVEL 0
+SET DATABASE TRANSACTION CONTROL LOCKS
+SET DATABASE DEFAULT ISOLATION LEVEL READ COMMITTED
+SET DATABASE TRANSACTION ROLLBACK ON CONFLICT TRUE
+SET DATABASE TEXT TABLE DEFAULTS ''
+SET DATABASE DEFAULT TABLE TYPE CACHED
+SET DATABASE SQL NAMES FALSE
+SET DATABASE SQL REFERENCES FALSE
+SET DATABASE SQL SIZE TRUE
+SET DATABASE SQL TYPES FALSE
+SET DATABASE SQL TDC DELETE TRUE
+SET DATABASE SQL TDC UPDATE TRUE
+SET DATABASE SQL TRANSLATE TTI TYPES TRUE
+SET DATABASE SQL CONCAT NULLS TRUE
+SET DATABASE SQL UNIQUE NULLS TRUE
+SET DATABASE SQL CONVERT TRUNCATE TRUE
+SET DATABASE SQL AVG SCALE 0
+SET DATABASE SQL DOUBLE NAN TRUE
+SET FILES WRITE DELAY 500 MILLIS
+SET FILES BACKUP INCREMENT TRUE
+SET FILES CACHE SIZE 10000
+SET FILES CACHE ROWS 50000
+SET FILES SCALE 32
+SET FILES LOB SCALE 32
+SET FILES DEFRAG 0
+SET FILES NIO TRUE
+SET FILES NIO SIZE 256
+SET FILES LOG TRUE
+SET FILES LOG SIZE 50
+CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
+ALTER USER SA SET LOCAL TRUE
+CREATE SCHEMA PUBLIC AUTHORIZATION DBA
+SET SCHEMA PUBLIC
+CREATE CACHED TABLE PUBLIC."synonym"("ID" INTEGER NOT NULL PRIMARY KEY,"latinname" VARCHAR(255),"Author" VARCHAR(255),"TrueLatinName" VARCHAR(255),"Notes" VARCHAR(255),"PullOut" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."medic"("ID" INTEGER NOT NULL PRIMARY KEY,"Latin name" VARCHAR(255),"Use" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."cultivar"("ID" INTEGER NOT NULL PRIMARY KEY,"Latin Name" VARCHAR(255),"Cultivar" VARCHAR(255),"Notes on cultivar" VARCHAR(900),"Synonyms" VARCHAR(255),"Pull out" VARCHAR(255),"Record checked" VARCHAR(255),"Last update" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."edib"("ID" INTEGER NOT NULL PRIMARY KEY,"Latin name" VARCHAR(255),"Use" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."range"("ID" INTEGER NOT NULL PRIMARY KEY,"Latin name" VARCHAR(255),"Britain" VARCHAR(255),"Europe" VARCHAR(255),"Mediterranean" VARCHAR(255),"W Asia" VARCHAR(255),"E Asia" VARCHAR(255),"N America" VARCHAR(255),"S America" VARCHAR(255),"Africa" VARCHAR(255),"Australasia" VARCHAR(255),"Other" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."other"("ID" INTEGER NOT NULL PRIMARY KEY,"Latin name" VARCHAR(255),"Use" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."med_terms"("ID" INTEGER NOT NULL PRIMARY KEY,"Use" VARCHAR(255),"Description" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."other_terms"("ID" INTEGER NOT NULL PRIMARY KEY,"Use" VARCHAR(255),"Description" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."compo"("ID" INTEGER NOT NULL PRIMARY KEY,"Latin Name" VARCHAR(255),"Common Name" VARCHAR(255),"Part of plant" VARCHAR(255),"Dry or Fresh weight" VARCHAR(255),"Water" VARCHAR(255),"Calories" VARCHAR(255),"Protein" VARCHAR(255),"Fat" VARCHAR(255),"Carbohydrate" VARCHAR(255),"Fibre" VARCHAR(255),"Ash" VARCHAR(255),"Calcium" VARCHAR(255),"Phosphorus" VARCHAR(255),"Iron" VARCHAR(255),"Magnesium" VARCHAR(255),"Sodium" VARCHAR(255),"Potassium" VARCHAR(255),"Zinc" VARCHAR(255),"VitaminA" VARCHAR(255),"Thiamine" VARCHAR(255),"Riboflavin" VARCHAR(255),"Niacin" VARCHAR(255),"VitaminC" VARCHAR(255),"VitaminB6" VARCHAR(255),"Source" VARCHAR(255),"Notes" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."lataut"("ID" INTEGER NOT NULL PRIMARY KEY,"Latin name" VARCHAR(255),"Author" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."edterms"("ID" INTEGER NOT NULL PRIMARY KEY,"Use" VARCHAR(255),"Catagory" VARCHAR(255),"Description" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."USDA palatable human BC"("ID" INTEGER NOT NULL PRIMARY KEY,"Accepted Symbol" VARCHAR(255),"Synonym Symbol" VARCHAR(255),"Symbol" VARCHAR(255),"Scientific Name" VARCHAR(255),"Common Name" VARCHAR(255),"Genus" VARCHAR(255),"Family" VARCHAR(255),"Duration" VARCHAR(255),"Growth Habit" VARCHAR(255),"Native Status" VARCHAR(255),"Active Growth Period" VARCHAR(255),"After Harvest Regrowth Rate" VARCHAR(255),"Bloat" VARCHAR(255),"C:N Ratio" VARCHAR(255),"Coppice Potential" VARCHAR(255),"Fall Conspicuous" VARCHAR(255),"Fire Resistance" VARCHAR(255),"Flower Color" VARCHAR(255),"Flower Conspicuous" VARCHAR(255),"Foliage Color" VARCHAR(255),"Foliage Porosity Summer" VARCHAR(255),"Foliage Porosity Winter" VARCHAR(255),"Foliage Texture" VARCHAR(255),"Fruit Color" VARCHAR(255),"Fruit Conspicuous" VARCHAR(255),"Growth Form" VARCHAR(255),"Growth Rate" VARCHAR(255),"Height at Base Age, Maximum (feet)" VARCHAR(255),"Height, Mature (feet)" VARCHAR(255),"Known Allelopath" VARCHAR(255),"Leaf Retention" VARCHAR(255),"Lifespan" VARCHAR(255),"Low Growing Grass" VARCHAR(255),"Nitrogen Fixation" VARCHAR(255),"Resprout Ability" VARCHAR(255),"Shape and Orientation" VARCHAR(255),"Toxicity" VARCHAR(255),"Adapted to Coarse Textured Soils" VARCHAR(255),"Adapted to Medium Textured Soils" VARCHAR(255),"Adapted to Fine Textured Soils" VARCHAR(255),"Anaerobic Tolerance" VARCHAR(255),"CaCO<SUB>3</SUB> Tolerance" VARCHAR(255),"Cold Stratification Required" VARCHAR(255),"Drought Tolerance" VARCHAR(255),"Fertility Requirement" VARCHAR(255),"Fire Tolerance" VARCHAR(255),"Frost Free Days, Minimum" VARCHAR(255),"Hedge Tolerance" VARCHAR(255),"Moisture Use" VARCHAR(255),"pH (Minimum)" VARCHAR(255),"pH (Maximum)" VARCHAR(255),"Planting Density per Acre, Minimum" VARCHAR(255),"Planting Density per Acre, Maximum" VARCHAR(255),"Precipitation (Minimum)" VARCHAR(255),"Precipitation (Maximum)" VARCHAR(255),"Root Depth, Minimum (inches)" VARCHAR(255),"Salinity Tolerance" VARCHAR(255),"Shade Tolerance" VARCHAR(255),"Temperature, Minimum (\u00b0F)" VARCHAR(255),"Bloom Period" VARCHAR(255),"Commercial Availability" VARCHAR(255),"Fruit/Seed Abundance" VARCHAR(255),"Fruit/Seed Period Begin" VARCHAR(255),"Fruit/Seed Period End" VARCHAR(255),"Fruit/Seed Persistence" VARCHAR(255),"Propogated by Bare Root" VARCHAR(255),"Propogated by Bulbs" VARCHAR(255),"Propogated by Container" VARCHAR(255),"Propogated by Corms" VARCHAR(255),"Propogated by Cuttings" VARCHAR(255),"Propogated by Seed" VARCHAR(255),"Propogated by Sod" VARCHAR(255),"Propogated by Sprigs" VARCHAR(255),"Propogated by Tubers" VARCHAR(255),"Seeds per Pound" VARCHAR(255),"Seed Spread Rate" VARCHAR(255),"Seedling Vigor" VARCHAR(255),"Small Grain" VARCHAR(255),"Vegetative Spread Rate" VARCHAR(255),"Berry/Nut/Seed Product" VARCHAR(255),"Christmas Tree Product" VARCHAR(255),"Fodder Product" VARCHAR(255),"Fuelwood Product" VARCHAR(255),"Lumber Product" VARCHAR(255),"Naval Store Product" VARCHAR(255),"Nursery Stock Product" VARCHAR(255),"Palatable Browse Animal" VARCHAR(255),"Palatable Graze Animal" VARCHAR(255),"Palatable Human" VARCHAR(255),"Post Product" VARCHAR(255),"Protein Potential" VARCHAR(255),"Pulpwood Product" VARCHAR(255),"Veneer Product" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."usda symbol"("ID" INTEGER NOT NULL PRIMARY KEY,"Symbol" VARCHAR(255),"Synonym Symbol" VARCHAR(255),"Scientific Name with Author" VARCHAR(255),"latin_name" VARCHAR(255),"Genus" VARCHAR(255),"Species" VARCHAR(255),"cultivar" VARCHAR(255),"Common Name" VARCHAR(255),"Family" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."plant_symbols"("ID" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"latin_name" VARCHAR(255),"cultivar" VARCHAR(255))
+ALTER TABLE PUBLIC."plant_symbols" ALTER COLUMN "ID" RESTART WITH 69
+CREATE CACHED TABLE PUBLIC."plant_search_list"("id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"latin_name" VARCHAR(100))
+ALTER TABLE PUBLIC."plant_search_list" ALTER COLUMN "id" RESTART WITH 48
+CREATE CACHED TABLE PUBLIC."companions"("id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"latin_name" VARCHAR(255),"companion_latin_name" VARCHAR(255),"in_space" BOOLEAN,"in_proximity" BOOLEAN,"in_time" BOOLEAN,"relations" VARCHAR(255),"hinderance_in_space" BOOLEAN,"hinderance_in_time" BOOLEAN,"hinderance_in_proximity" BOOLEAN)
+ALTER TABLE PUBLIC."companions" ALTER COLUMN "id" RESTART WITH 823
+CREATE CACHED TABLE PUBLIC."InvasiveSpecies"("latin_name" VARCHAR(255) NOT NULL PRIMARY KEY,"Provincial_Regional_Invasive_NotListed_" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."plot_plant_availability_selection"("plot_plant_id" INTEGER,"availability_id" INTEGER,"id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"quantity" INTEGER)
+ALTER TABLE PUBLIC."plot_plant_availability_selection" ALTER COLUMN "id" RESTART WITH 277
+CREATE CACHED TABLE PUBLIC."pest_and_disease"("ID" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"latin_name" VARCHAR(255),"pest" VARCHAR(255))
+ALTER TABLE PUBLIC."pest_and_disease" ALTER COLUMN "ID" RESTART WITH 1082
+CREATE CACHED TABLE PUBLIC."Seed"("id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"Latin_Name" VARCHAR(255),"name" VARCHAR(255),"Cultivar" VARCHAR(255),"Seed_viability_years_min" INTEGER,"Seed_viability_years_max" INTEGER,"Number_of_seeds_per_g" INTEGER,"Germination_time__days__min__Short__Long__Extra_Long" INTEGER,"Germination_time__days__max__Short__Long__Extra_Long" INTEGER,"aprox_seeds_per_pack" INTEGER,"aprox_mL_seeds" VARCHAR(100))
+ALTER TABLE PUBLIC."Seed" ALTER COLUMN "id" RESTART WITH 160
+CREATE CACHED TABLE PUBLIC."species"("Latin_name" VARCHAR(50) NOT NULL PRIMARY KEY,"genus" VARCHAR(20),"species" VARCHAR(40),"Author" VARCHAR(50),"Botanical_references" VARCHAR(20),"Family" VARCHAR(20),"Common_name" VARCHAR(100),"Habit" VARCHAR(30),"Deciduous_Evergreen" VARCHAR(20),"Height" DOUBLE,"Width" DOUBLE,"Hardyness" DOUBLE,"In_cultivation_" DOUBLE,"Medicinal" VARCHAR(4000),"Range" VARCHAR(110),"Habitat" VARCHAR(340),"Soil" VARCHAR(10),"Shade" VARCHAR(10),"Moisture" VARCHAR(10),"Well_drained" DOUBLE,"Nitrogen_fixer" DOUBLE,"pH" VARCHAR(10),"Acid" DOUBLE,"Alkaline" DOUBLE,"Saline" DOUBLE,"Wind" VARCHAR(10),"Growth_rate" VARCHAR(20),"Pollution" DOUBLE,"Poor_soil" DOUBLE,"Drought" DOUBLE,"Wildlife" DOUBLE,"Woodland" DOUBLE,"Meadow" DOUBLE,"Wall" DOUBLE,"In_leaf" VARCHAR(10),"FloweringJan_" DOUBLE,"FloweringFeb_" DOUBLE,"FloweringMar_" DOUBLE,"FloweringApr_" DOUBLE,"FloweringMay" DOUBLE,"FloweringJune" DOUBLE,"FloweringJuly" DOUBLE,"FloweringAug_" DOUBLE,"FloweringSep_" DOUBLE,"FloweringOct_" DOUBLE,"FloweringNov_" DOUBLE,"FloweringDec_" DOUBLE,"Seed_ripens" VARCHAR(20),"Flower_Type" VARCHAR(20),"Pollinators" VARCHAR(100),"Self_fertile" DOUBLE,"Known_hazards" VARCHAR(4000),"Synonyms" VARCHAR(400),"Cultivation_details" VARCHAR(4000),"Edible_uses" VARCHAR(3200),"Uses_notes" VARCHAR(3200),"Propagation" VARCHAR(2400),"Cultivars" DOUBLE,"Cultivars_in_cultivation" DOUBLE,"Heavy_clay" DOUBLE,"Pull_out" DOUBLE,"Last_update" TIMESTAMP,"Record_checked" DOUBLE,"EdibilityRating" DOUBLE,"FrostTender" DOUBLE,"SiteSpecificNotes" VARCHAR(500),"Scented" DOUBLE,"MedicinalRating" DOUBLE)
+CREATE CACHED TABLE PUBLIC."Plots"("Plot" VARCHAR(255) NOT NULL PRIMARY KEY,"location" VARCHAR(255),"contact_info" VARCHAR(255),"notes" VARCHAR(255),"last_frost_month" TINYINT,"last_frost_day" TINYINT,"first_frost_month" TINYINT,"first_frost_day" TINYINT)
+CREATE CACHED TABLE PUBLIC."Plot_availability_builder"("id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"Plot" VARCHAR(255),"Nursery" VARCHAR(255))
+ALTER TABLE PUBLIC."Plot_availability_builder" ALTER COLUMN "id" RESTART WITH 341
+CREATE CACHED TABLE PUBLIC."Plot"("Plot" VARCHAR(255) NOT NULL PRIMARY KEY,FOREIGN KEY("Plot") REFERENCES PUBLIC."Plots"("Plot"))
+CREATE CACHED TABLE PUBLIC."Availability"("ID" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"Nursery" VARCHAR(255),"latin_name" VARCHAR(255),"cultivar" VARCHAR(255),"cost" DOUBLE,"size" VARCHAR(255),"date" DATE,"quantity" INTEGER,"notes" VARCHAR(255))
+ALTER TABLE PUBLIC."Availability" ALTER COLUMN "ID" RESTART WITH 11952
+CREATE CACHED TABLE PUBLIC."phenology_dates"("ID" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"phenological_event" VARCHAR(255),"start_month" SMALLINT,"start_day" SMALLINT,"end_month" SMALLINT,"end_day" SMALLINT)
+ALTER TABLE PUBLIC."phenology_dates" ALTER COLUMN "ID" RESTART WITH 74
+CREATE CACHED TABLE PUBLIC."growers"("name" VARCHAR(255) NOT NULL PRIMARY KEY,"phone" VARCHAR(255),"address" VARCHAR(255),"email" VARCHAR(255),"website" VARCHAR(255),"Coordinates" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."grower"("grower" VARCHAR(100) NOT NULL PRIMARY KEY)
+CREATE CACHED TABLE PUBLIC."replacements"("id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"latin_name" VARCHAR(100),"replacement_latin_name" VARCHAR(100))
+ALTER TABLE PUBLIC."replacements" ALTER COLUMN "id" RESTART WITH 10
+CREATE CACHED TABLE PUBLIC."plot_plant_sew_dates"("id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"plot_plant_id" INTEGER,"sewdate" DATE,"practice" VARCHAR(100),"notes" VARCHAR(100))
+ALTER TABLE PUBLIC."plot_plant_sew_dates" ALTER COLUMN "id" RESTART WITH 20
+CREATE CACHED TABLE PUBLIC."days_to_maturity"("id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"latin_name" VARCHAR(100),"cultivar" VARCHAR(100),"days_to_maturity" INTEGER)
+ALTER TABLE PUBLIC."days_to_maturity" ALTER COLUMN "id" RESTART WITH 2
+CREATE CACHED TABLE PUBLIC."daterange"("ID" INTEGER NOT NULL PRIMARY KEY,"startmonth" INTEGER,"startday" INTEGER,"endmonth" INTEGER,"endday" INTEGER)
+CREATE CACHED TABLE PUBLIC."Temp"("MinTempC" DOUBLE,"MaxTempC" DOUBLE,"id" INTEGER NOT NULL PRIMARY KEY)
+CREATE CACHED TABLE PUBLIC."germination"("id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"latin_name" VARCHAR(100),"germination_days_min" VARCHAR(100),"germination_C_min" VARCHAR(100),"germination_C_optimal" VARCHAR(100),"germination_C_max" VARCHAR(100),"germination_days_max" VARCHAR(100))
+ALTER TABLE PUBLIC."germination" ALTER COLUMN "id" RESTART WITH 12
+CREATE CACHED TABLE PUBLIC."plot_plant_cultivation_practices"("id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"plot_plant_id" VARCHAR(255),"date" VARCHAR(255),"practice" VARCHAR(255),"notes" VARCHAR(255))
+ALTER TABLE PUBLIC."plot_plant_cultivation_practices" ALTER COLUMN "id" RESTART WITH 65
+CREATE CACHED TABLE PUBLIC."saved_seeds"("latin_name" VARCHAR(100),"plot" VARCHAR(100),"bed" VARCHAR(100),"harvest_date" DATE,"cultivar" VARCHAR(100),"id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"grams" INTEGER)
+ALTER TABLE PUBLIC."saved_seeds" ALTER COLUMN "id" RESTART WITH 2
+CREATE CACHED TABLE PUBLIC."annual_cultivation"("id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"latin_name" VARCHAR(255),"phenological_event" VARCHAR(255),"start_month" SMALLINT,"start_day" SMALLINT,"end_month" SMALLINT,"end_day" SMALLINT,"practice" VARCHAR(255),"detail" VARCHAR(1500))
+ALTER TABLE PUBLIC."annual_cultivation" ALTER COLUMN "id" RESTART WITH 4801
+CREATE VIEW PUBLIC."annual_cultivation_dates_view" ("latin_name","start_month","start_day","end_month","end_day","practice","detail","phenological_event") AS SELECT "latin_name","start_month","start_day","end_month","end_day","practice","detail","phenological_event" FROM PUBLIC."annual_cultivation" WHERE "start_month" IS NOT NULL UNION ALL SELECT "annual_cultivation"."latin_name","phenology_dates"."start_month","phenology_dates"."start_day","phenology_dates"."end_month","phenology_dates"."end_day","annual_cultivation"."practice","annual_cultivation"."detail","annual_cultivation"."phenological_event" FROM PUBLIC."annual_cultivation",PUBLIC."phenology_dates" WHERE "annual_cultivation"."phenological_event"="phenology_dates"."phenological_event" AND "annual_cultivation"."phenological_event" IS NOT NULL ORDER BY "end_month" ASC,"end_day" ASC,"start_month" ASC,"start_day" ASC
+CREATE VIEW PUBLIC."view_growers_annaul_cultivation_practices" ("end_month","end_day","start_month","start_day","practice","latin_name","detail","grower","Common_name") AS SELECT DISTINCT "annual_cultivation_dates"."end_month","annual_cultivation_dates"."end_day","annual_cultivation_dates"."start_month","annual_cultivation_dates"."start_day","annual_cultivation_dates"."practice","annual_cultivation_dates"."latin_name","annual_cultivation_dates"."detail","grower"."grower","species"."Common_name" FROM(SELECT "latin_name","start_month","start_day","end_month","end_day","practice","detail","phenological_event" FROM PUBLIC."annual_cultivation" WHERE "start_month" IS NOT NULL UNION ALL SELECT "annual_cultivation"."latin_name","phenology_dates"."start_month","phenology_dates"."start_day","phenology_dates"."end_month","phenology_dates"."end_day","annual_cultivation"."practice","annual_cultivation"."detail","annual_cultivation"."phenological_event" FROM PUBLIC."annual_cultivation",PUBLIC."phenology_dates" WHERE "annual_cultivation"."phenological_event"="phenology_dates"."phenological_event" AND "annual_cultivation"."phenological_event" IS NOT NULL ORDER BY "end_month" ASC,"end_day" ASC,"start_month" ASC,"start_day" ASC)AS "annual_cultivation_dates",PUBLIC."species",PUBLIC."Availability",PUBLIC."grower" WHERE "annual_cultivation_dates"."latin_name"="species"."Latin_name" AND "Availability"."Nursery"="grower"."grower" AND "Availability"."latin_name"="annual_cultivation_dates"."latin_name" AND CURRENT_DATE BETWEEN CAST(YEAR(CURRENT_DATE)||'-'||RIGHT('0'||"start_month",2)||'-'||RIGHT('0'||"start_day",2)AS DATE)AND CAST(CASE WHEN "start_month"<="end_month" THEN YEAR(CURRENT_DATE)ELSE YEAR(CURRENT_DATE)+1 END||'-'||RIGHT('0'||"end_month",2)||'-'||RIGHT('0'||"end_day",2)AS DATE)ORDER BY "annual_cultivation_dates"."end_month" ASC,"annual_cultivation_dates"."end_day" ASC,"annual_cultivation_dates"."start_month" ASC,"annual_cultivation_dates"."start_day" ASC,"annual_cultivation_dates"."latin_name" ASC
+CREATE VIEW PUBLIC."annual_cultivation_practices_calculated_view" ("latin_name","start_month","start_day","end_month","end_day","practice","detail","phenological_event") AS SELECT PUBLIC."annual_cultivation_dates_view"."latin_name",PUBLIC."annual_cultivation_dates_view"."start_month",PUBLIC."annual_cultivation_dates_view"."start_day",PUBLIC."annual_cultivation_dates_view"."end_month",PUBLIC."annual_cultivation_dates_view"."end_day",PUBLIC."annual_cultivation_dates_view"."practice",PUBLIC."annual_cultivation_dates_view"."detail",PUBLIC."annual_cultivation_dates_view"."phenological_event" FROM PUBLIC."annual_cultivation_dates_view" WHERE CURRENT_DATE<=CAST(YEAR(CURRENT_DATE)||'-'||RIGHT('0'||"end_month",2)||'-'||RIGHT('0'||"end_day",2)AS DATE)AND CURRENT_DATE BETWEEN CAST(CASE WHEN "start_month"<="end_month" THEN YEAR(CURRENT_DATE)ELSE YEAR(CURRENT_DATE)-1 END||'-'||RIGHT('0'||"start_month",2)||'-'||RIGHT('0'||"start_day",2)AS DATE)AND CAST(CASE WHEN "start_month"<="end_month" THEN YEAR(CURRENT_DATE)ELSE YEAR(CURRENT_DATE)+1 END||'-'||RIGHT('0'||"end_month",2)||'-'||RIGHT('0'||"end_day",2)AS DATE)
+CREATE CACHED TABLE PUBLIC."images"("ID" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"latin_name" VARCHAR(255),"url" VARCHAR(255),"caption" VARCHAR(255))
+ALTER TABLE PUBLIC."images" ALTER COLUMN "ID" RESTART WITH 440
+CREATE CACHED TABLE PUBLIC."iconsold"("id" INTEGER NOT NULL PRIMARY KEY,"latin_name" VARCHAR(255),"initials" VARCHAR(255),"cultivar" VARCHAR(255),"icon_url" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."icons"("id" INTEGER NOT NULL PRIMARY KEY,"latin_name" VARCHAR(255),"initials" VARCHAR(255),"cultivar" VARCHAR(255),"icon_url" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."plot_plants_old"("id" INTEGER NOT NULL PRIMARY KEY,"plot" VARCHAR(255),"latin_name" VARCHAR(255),"priority" VARCHAR(255),"sited" VARCHAR(255),"bed" VARCHAR(255),"quantity" INTEGER,"cultivar" VARCHAR(255),"notes" VARCHAR(255))
+CREATE CACHED TABLE PUBLIC."plot_beds"("id" INTEGER NOT NULL PRIMARY KEY,"bed" VARCHAR(50),"shade" VARCHAR(10),"area" DOUBLE,"soil" VARCHAR(10),"moisture" VARCHAR(10),"pH" VARCHAR(10),"Well_drained" DOUBLE,"Acid" DOUBLE,"Alkaline" DOUBLE,"Drought" DOUBLE,"Poor" DOUBLE,"Saline" DOUBLE,"Heavy_clay" DOUBLE,"Wind" VARCHAR(10),"Pollution" DOUBLE,"Meadow" DOUBLE,"Woodland" DOUBLE,"Wall" DOUBLE,"Hardiness_Zone" DOUBLE,"Frost_tender" DOUBLE,"sunmap" VARCHAR(10))
+CREATE CACHED TABLE PUBLIC."plot_plants"("id" INTEGER GENERATED BY DEFAULT AS IDENTITY(START WITH 0) NOT NULL PRIMARY KEY,"plot" VARCHAR(255),"latin_name" VARCHAR(255),"priority" VARCHAR(255),"sited" VARCHAR(255),"bed" INTEGER,"quantity" INTEGER,"cultivar" VARCHAR(255),"notes" VARCHAR(255),FOREIGN KEY("bed") REFERENCES PUBLIC."plot_beds"("id"),FOREIGN KEY("plot") REFERENCES PUBLIC."Plots"("Plot"),FOREIGN KEY("latin_name") REFERENCES PUBLIC."species"("Latin_name"))
+ALTER TABLE PUBLIC."plot_plants" ALTER COLUMN "id" RESTART WITH 3020
+CREATE VIEW PUBLIC."plot_annual_cultivation_dates_view" ("latin_name","start_month","start_day","end_month","end_day","practice","detail","phenological_event","Plot","Common_name") AS SELECT DISTINCT "annual_cultivation_dates_view_1"."latin_name","annual_cultivation_dates_view_1"."start_month","annual_cultivation_dates_view_1"."start_day","annual_cultivation_dates_view_1"."end_month","annual_cultivation_dates_view_1"."end_day","annual_cultivation_dates_view_1"."practice","annual_cultivation_dates_view_1"."detail","annual_cultivation_dates_view_1"."phenological_event","Plot"."Plot","species"."Common_name" FROM PUBLIC."plot_plants",PUBLIC."Plot",PUBLIC."annual_cultivation_dates_view",PUBLIC."annual_cultivation_dates_view" AS "annual_cultivation_dates_view_1",PUBLIC."species" WHERE "plot_plants"."plot"="Plot"."Plot" AND "annual_cultivation_dates_view"."latin_name"="plot_plants"."latin_name" AND "annual_cultivation_dates_view_1"."latin_name"="annual_cultivation_dates_view"."latin_name" AND "annual_cultivation_dates_view_1"."latin_name"="species"."Latin_name" ORDER BY CASE WHEN "end_month"*12+"end_day"<"start_month"*12+"start_day" THEN "end_month"+12 ELSE "end_month" END ASC,"end_month" ASC,"end_day" ASC,"start_month" ASC,"start_day" ASC
+CREATE VIEW PUBLIC."plot_annual_cultivation_practices_calculated_view" ("latin_name","start_month","start_day","end_month","end_day","practice","detail","phenological_event","Common_name") AS SELECT DISTINCT "latin_name","start_month","start_day","end_month","end_day","practice","detail","phenological_event","Common_name" FROM PUBLIC."plot_annual_cultivation_dates_view" WHERE CURRENT_DATE<=CAST(YEAR(CURRENT_DATE)||'-'||RIGHT('0'||"end_month",2)||'-'||RIGHT('0'||"end_day",2)AS DATE)AND CURRENT_DATE BETWEEN CAST(CASE WHEN "start_month"<="end_month" THEN YEAR(CURRENT_DATE)ELSE YEAR(CURRENT_DATE)-1 END||'-'||RIGHT('0'||"start_month",2)||'-'||RIGHT('0'||"start_day",2)AS DATE)AND CAST(CASE WHEN "start_month"<="end_month" THEN YEAR(CURRENT_DATE)ELSE YEAR(CURRENT_DATE)+1 END||'-'||RIGHT('0'||"end_month",2)||'-'||RIGHT('0'||"end_day",2)AS DATE)ORDER BY "plot_annual_cultivation_dates_view"."end_month" ASC,"plot_annual_cultivation_dates_view"."end_day" ASC,"plot_annual_cultivation_dates_view"."practice" ASC
+CREATE VIEW PUBLIC."view_p_a_c_p_" ("latin_name","start_month","start_day","end_month","end_day","practice","detail","phenological_event","Common_name") AS SELECT DISTINCT "latin_name","start_month","start_day","end_month","end_day","practice","detail","phenological_event","Common_name" FROM PUBLIC."plot_annual_cultivation_dates_view" WHERE CURRENT_DATE<=CAST(YEAR(CURRENT_DATE)||'-'||RIGHT('0'||"end_month",2)||'-'||RIGHT('0'||"end_day",2)AS DATE)AND CURRENT_DATE BETWEEN CAST(CASE WHEN "start_month"<="end_month" THEN YEAR(CURRENT_DATE)ELSE YEAR(CURRENT_DATE)-1 END||'-'||RIGHT('0'||"start_month",2)||'-'||RIGHT('0'||"start_day",2)AS DATE)AND CAST(CASE WHEN "start_month"<="end_month" THEN YEAR(CURRENT_DATE)ELSE YEAR(CURRENT_DATE)+1 END||'-'||RIGHT('0'||"end_month",2)||'-'||RIGHT('0'||"end_day",2)AS DATE)ORDER BY "plot_annual_cultivation_dates_view"."end_month" ASC,"plot_annual_cultivation_dates_view"."end_day" ASC,"plot_annual_cultivation_dates_view"."practice" ASC
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 1
+SET DATABASE DEFAULT INITIAL SCHEMA PUBLIC
+SET TABLE PUBLIC."synonym" INDEX '12317 0 12217'
+SET TABLE PUBLIC."medic" INDEX '55403 0 16473'
+SET TABLE PUBLIC."cultivar" INDEX '84151 0 1922'
+SET TABLE PUBLIC."edib" INDEX '100739 0 10261'
+SET TABLE PUBLIC."range" INDEX '123841 0 7414'
+SET TABLE PUBLIC."other" INDEX '141095 0 8098'
+SET TABLE PUBLIC."med_terms" INDEX '149920 0 135'
+SET TABLE PUBLIC."other_terms" INDEX '150404 0 114'
+SET TABLE PUBLIC."compo" INDEX '150989 0 153'
+SET TABLE PUBLIC."lataut" INDEX '161074 0 7351'
+SET TABLE PUBLIC."edterms" INDEX '168488 0 29'
+SET TABLE PUBLIC."USDA palatable human BC" INDEX '170226 0 331'
+SET TABLE PUBLIC."usda symbol" INDEX '379976 0 90610'
+SET TABLE PUBLIC."plant_symbols" INDEX '742200 0 68'
+SET TABLE PUBLIC."plant_search_list" INDEX '1453333 0 18'
+SET TABLE PUBLIC."companions" INDEX '743078 0 706'
+SET TABLE PUBLIC."InvasiveSpecies" INDEX '744720 0 183'
+SET TABLE PUBLIC."plot_plant_availability_selection" INDEX '745450 0 223'
+SET TABLE PUBLIC."pest_and_disease" INDEX '747235 0 1081'
+SET TABLE PUBLIC."Seed" INDEX '1426326 0 160'
+SET TABLE PUBLIC."species" INDEX '1065229 0 7569'
+SET TABLE PUBLIC."Plots" INDEX '1474018 0 12'
+SET TABLE PUBLIC."Plot_availability_builder" INDEX '1345251 0 337'
+SET TABLE PUBLIC."Plot" INDEX '1485580 1485580 0 0 4'
+SET TABLE PUBLIC."Availability" INDEX '1363084 0 11815'
+SET TABLE PUBLIC."phenology_dates" INDEX '1398787 0 59'
+SET TABLE PUBLIC."growers" INDEX '1398890 0 31'
+SET TABLE PUBLIC."grower" INDEX '1398934 0 1'
+SET TABLE PUBLIC."replacements" INDEX '1398945 0 10'
+SET TABLE PUBLIC."plot_plant_sew_dates" INDEX '1398980 0 17'
+SET TABLE PUBLIC."days_to_maturity" INDEX '1399000 0 2'
+SET TABLE PUBLIC."daterange" INDEX '1458608 0 1'
+SET TABLE PUBLIC."Temp" INDEX '1399008 0 1'
+SET TABLE PUBLIC."germination" INDEX '1399030 0 12'
+SET TABLE PUBLIC."plot_plant_cultivation_practices" INDEX '1399133 0 60'
+SET TABLE PUBLIC."saved_seeds" INDEX '1425595 0 2'
+SET TABLE PUBLIC."annual_cultivation" INDEX '1446483 0 3926'
+SET TABLE PUBLIC."images" INDEX '1456440 0 439'
+SET TABLE PUBLIC."iconsold" INDEX '1469944 0 288'
+SET TABLE PUBLIC."icons" INDEX '1473254 0 299'
+SET TABLE PUBLIC."plot_plants_old" INDEX '1476657 0 429'
+SET TABLE PUBLIC."plot_beds" INDEX '1478628 0 89'
+SET TABLE PUBLIC."plot_plants" INDEX '1484717 1483486 1484319 1484269 0 0 0 0 431'
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.SQL_IDENTIFIER TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.YES_OR_NO TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.TIME_STAMP TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CARDINAL_NUMBER TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CHARACTER_DATA TO PUBLIC
+GRANT DBA TO SA
+SET SCHEMA SYSTEM_LOBS
+INSERT INTO BLOCKS VALUES(0,2147483647,0)
