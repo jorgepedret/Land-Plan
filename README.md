@@ -1,13 +1,22 @@
-Requirements:
-*if you're on mac and get an error about java you need to have a Java Runtime Environment or JRE.  Go online and search for the newest one.  Download and install it.
+# Land Plan
 
-*LibreOffice version 7.3.5.2 and 7.2.7.2 work on linux.  other versions may give the error: The connection to the data source “LANdpLAN.odb” could not be established.  error in script file line 1 Unexpected token  UNIQUE, requires COLLATION in statement [SET DATABASE UNIQUE] ./connectivity/source/drivers/jdbc/Object.cxx:175
+LANdpLAN is a computer program that puts the ability of planning a successful food producing landscape in the hands of anyone who has some basic computing skills. 
 
-﻿*You must change the macro security settings in Libreoffice:
+So far it is an idea and a program is in the making. 
+
+Your help is wanted, I (Jonathan) am not a programmer... yet...
+
+## Requirements:
+
+* If you're on mac and get an error about java you need to have a Java Runtime Environment or JRE.  Go online and search for the newest one.  Download and install it.
+
+* LibreOffice version 7.3.5.2 and 7.2.7.2 work on linux.  other versions may give the error: The connection to the data source “LANdpLAN.odb” could not be established.  error in script file line 1 Unexpected token  UNIQUE, requires COLLATION in statement [SET DATABASE UNIQUE] ./connectivity/source/drivers/jdbc/Object.cxx:175
+
+* You must change the macro security settings in Libreoffice:
 	Open LibreOffice and got to:
 	>Tools>Options>LibreOffice>Security>Macro Security...>Medium
 
-*32bit linux computers* will crash unless you add a boot parameter to the kernel by:
+* 32bit linux computers will crash unless you add a boot parameter to the kernel by:
 	From a terminal (or after pressing Alt + F2) run:
 	gksudo gedit /etc/default/grub
 	(or use sudo nano if gksudo or gedit are not available) and enter your password.
@@ -20,9 +29,9 @@ Requirements:
 	On the next reboot, the kernel should be started with the boot parameter. To permanently remove it, simply remove the parameter from GRUB_CMDLINE_LINUX_DEFAULT and run sudo update-grub again.
 	To verify your changes, you can see exactly what parameters your kernel booted with by executing cat /proc/cmdline.
 
-*Open up the LANdpLAN.odb file.
+* Open up the LANdpLAN.odb file.
 
-*you need to tell the databse where the files are:  Go to Edit>Database>Properties: and change the file address to reflect your setup
+* you need to tell the databse where the files are:  Go to Edit>Database>Properties: and change the file address to reflect your setup
   for example:
   hsqldb:file:////home/jonathan/Dropbox/LANdpLAN/LANdpLAN/mydb;default_schema=true;shutdown=true;hsqldb.default_table_type=c
   becomes
