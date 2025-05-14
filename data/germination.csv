@@ -1,0 +1,13 @@
+id	latin_name	germination_days_min	germination_C_min	germination_C_optimal	germination_C_max	germination_days_max
+0	Camassia quamash	28	15		15	180
+1	Camassia leichtlinii	28	15		15	180
+2	Apium graveolens dulce	14	15		15	21
+3	Petroselinum crispum	7	10		30	42
+4	Taxus baccata	460				720
+5	Crataegus douglasii	180	4		15	720
+6	Solanum lycopersicum	3	10		15	7
+7	Lupinus polyphyllus	14				14
+8	Pastinaca sativa	14	10		25	21
+9	Valerianella locusta	7	5		18	21
+10	Cucurbita pepo	7				14
+11	Brassica oleracea	7				10

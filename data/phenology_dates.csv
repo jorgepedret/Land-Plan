@@ -1,0 +1,60 @@
+ID	phenological_event	start_month	start_day	end_month	end_day
+1					
+2	10 weeks before the last expected spring frosts	2	7	2	21
+4	after frost	4	15	5	1
+5	after last frost	4	15	5	1
+6	autumn	9	22	12	21
+7	autumn to late winter	9	22	3	7
+9	early april	4	1	4	15
+10	early autumn	9	22	10	15
+11	early spring	3	21	4	15
+12	early summer	6	20	7	15
+13	early to mid spring	3	21	5	31
+15	fall	9	22	12	21
+17	late autumn	11	15	12	21
+18	late spring	5	21	6	21
+19	late spring early summer	5	21	7	15
+20	late spring or early summer	5	21	7	15
+21	late summer	8	15	9	21
+22	late summer and early autumn	8	15	10	15
+23	late winter	2	15	3	21
+24	late winter to early summer	2	15	7	15
+25	late winter to late spring	2	15	6	21
+27	mid spring	4	15	5	30
+28	mid to late spring	4	15	6	21
+31	spring	3	21	6	21
+32	spring or summer	3	21	9	22
+33	spring to early summer	2	21	7	15
+34	summer	6	21	9	22
+37	winter	12	21	3	21
+38	first frost	10	1	11	21
+40	autumn to mid winter	9	22	1	21
+41	mid summer	6	21	7	7
+42	late autumn to early spring	9	21	3	20
+43	late autumn or winter	9	21	3	21
+45	late spring to late summer	5	21	9	21
+46	winter to mid spring	12	21	5	30
+47	mid to late summer	6	21	9	21
+48	-1				
+49	1.5				
+51	1.6				
+52	1.7				
+53	10	3	7	11	15
+54	5	5	1	10	7
+55	15	5	1	10	1
+57	18	6	21	8	15
+58	20				
+59	21				
+60	24				
+61	25				
+62	27				
+63	29				
+64	32				
+65	35				
+66	38				
+67	0	11	7	3	1
+68	early spring to early summer	2	1	6	20
+69	Plums in bloom	2	19		
+70	Crocus in bloom	2	19		
+72	early to late spring	2	8	4	21
+73	first frost	11	15	11	15

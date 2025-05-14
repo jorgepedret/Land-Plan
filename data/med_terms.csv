@@ -1,0 +1,136 @@
+ID	Use	Description
+1	Abortifacient	Causes an abortion.
+2	Acrid	Causes heat and irritation when applied to the skin.
+3	Adaptogen	Helps the body 'rise' to normal stress situations, thus preventing the many chronic degenerative diseases.
+4	Alterative	Causes a gradual beneficial change in the body, usually through improved nutrition and elimination, without having any marked specific action.
+5	Anaesthetic	Numbs the feeling in a local or general area of the body.
+6	Analgesic	Relieves pain.
+7	Anaphrodisiac	Reduces sexual desire.
+8	Anodyne	Relieves pain, it is milder than an analgesic.
+9	Antacid	Counters excess acidity in the stomach.
+10	Anthelmintic	Expels parasites from the gut.
+11	Antiaphonic	Restores the voice.
+12	Antiarthritic	Treats arthritis.
+13	Antiasthmatic	Treats asthma.
+14	Antibacterial	Kills bacteria.
+15	Antibilious	Corrects the secretions of bile.
+16	Antibiotic	An agent that inhibits or destroys a living organism. It usually refers to bacteria or other micro-organisms and is probably synonymous with Antibacterial
+17	Anticholesterolemic	Prevents the build up of cholesterol.
+18	Anticoagulant	Removes blood clots.
+19	Antidandruff	Treats dandruff.
+20	Antidermatosic	Prevents or cures skin complaints.
+21	Antidote	Counters poisoning.
+22	Antiecchymotic	Prevents or treats bruising.
+23	Antiemetic	Prevents vomiting.
+24	Antifungal	An agent that inhibits or destroys fungi. Used in the treatment of various fungal problems such as candida.
+25	Antihaemorrhoidal	Treats haemorrhoids (piles). This would probably be best added to another heading.
+26	Antihalitosis	Treats bad breath
+27	Antihydrotic	Reduces perspiration.
+28	Antiinflammatory	Reduces inflammation of joints, injuries etc.
+29	Antiperiodic	Counteracts recurring illnesses such as malaria.
+30	Antiphlogistic	Reduces inflammation.
+31	Antipruritic	Treats itching of the skin.
+32	Antipyretic	Treats fevers. See Febrifuge.
+33	Antirheumatic	Treats rheumatism.
+34	Antiscorbutic	A plant rich in vitamin C that is used to counteract scurvy.
+35	Antiscrophulatic	Counteracts scrofula. (TB, especially of the lymph glands)
+36	Antiseptic	Preventing sepsis, decay or putrefaction, it destroys or arrests the growth of micro-organisms.
+37	Antispasmodic	Relaxes muscular spasms and cramps, calming nervous irritation.
+38	Antitumor	Preventing, or effective against, tumors, it is used in the treatment of cancer. Probably synonymous with Cytotoxic.
+39	Antitussive	Prevents or relieves coughing.
+40	Antivinous	Treats addiction to alcohol
+41	Antiviral	Treats virus diseases
+42	Aperient	A mild laxative.
+43	Aphrodisiac	Increases the sexual appetite.
+44	Appetizer	Improves the appetite
+45	Aromatherapy	Plants whose essential oils are used in Aromatherapy.
+46	Aromatic	Having an agreeable odour and stimulant qualities.
+47	Astringent	Produces contraction in living tissue, reducing the flow of secretions and discharges of blood, mucus, diarrhoea etc.
+48	Bach	Plants used in the Bach flower remedies.
+49	Balsamic	A healing and soothing agent.
+50	Birthing aid	Used in facilitating birth, but not just to cause uterine contrctions.
+51	Bitter	Increases the appetite and stimulates digestion by acting on the mucous membranes of the mouth. Also increases the flow of bile, stimulates repair of the gut wall lining and regulates the secretion of insulin and glucogen.
+52	Blood purifier	Purifies the blood.
+53	Blood tonic	Is this any different to a blood purifier?
+54	Cancer	Used in the treatment of cancer.
+55	Cardiac	Used in the treatment of heart problems.
+56	Cardiotonic	A tonic for the heart.
+57	Carminative	Reduces flatulence and expels gas from the intestines.
+58	Cathartic	A strong laxative but less violent than a purgative.
+59	Cholagogue	Increases the flow of bile and its discharge from the body.
+60	Contraceptive	Prevents fertilization occurring in females.
+61	Cytostatic	Slows or controls the growth of tumours.
+62	Cytotoxic	Destroys body cells. Used in the treatment of diseases such as cancer, where it is targeted against the cancer cells.
+63	Decongestant	Removes phlegm and mucous, especially from the respiratory system.
+64	Demulcent	Soothes, lubricates and softens irritated tissues, especially the mucous membranes.
+65	Deobstruent	Clears obstructions from the natural ducts of the body.
+66	Deodorant	Masks smells. Is this medicinal?
+67	Depurative	Eliminates toxins and purifies the system, especially the blood.
+68	Detergent	A cleansing agent, used on wounds etc. It removes dead and diseased matter.
+69	Diaphoretic	Induces perspiration.
+70	Digestive	Aids digestion.
+71	Disinfectant	Used for cleaning wounds.
+72	Diuretic	Acts on the kidneys, promoting the flow of urine.
+73	Emetic	Induces vomiting.
+74	Emmenagogue	Promotes or increases the menstrual flow. In early stages of pregnancy it can induce an abortion.
+75	Emollient	Softens the skin, causing warmth and moisture.
+76	Enuresis	Treats bed wetting.
+77	Errhine	Produces sneezing.
+78	Expectorant	Clears phlegm from the chest by inducing coughing.
+79	Febrifuge	Reduces fevers.
+80	Foot care	Plants that are used in various ways to treat foot problems.
+81	Galactofuge	Stops or reduces the flow of milk in a nursing mother.
+82	Galactogogue	Promotes the flow of milk in a nursing mother.
+83	Haemolytic	Breaks down red blood corpuscles to separate haemoglobin.
+84	Haemostatic	Controls internal bleeding.
+85	Hallucinogenic	Causes the mind to hallucinate.
+86	Hepatic	Acts on the liver (for better or worse!).
+87	Homeopathy	A plant used in homeopathic treatments.
+88	Hydrogogue	A purgative that causes an abundant watery discharge.
+89	Hypnotic	Induces sleep.
+90	Hypoglycaemic	Reduces the levels of sugar in the blood.
+91	Hypotensive	Reduces blood pressure, it is used in the treatment of high blood pressure
+92	Infertility	Used in treating problems of human fertility.
+93	Irritant	Causes irritation or abnormal sensitivity in living tissue.
+94	Kidney	Used in the treatment of kidney diseases
+95	Laxative	Stimulates bowel movements in a fairly gentle manner.
+96	Lenitive	Soothing, palliative.
+97	Lithontripic	Removes stones from the kidney, bladder etc.
+98	Miscellany	Various medicinal actions that need more clarification.
+99	Mouthwash	Treats problems such as mouth ulcers.
+100	Mydriatic	Dilates the pupils of the eyes.
+101	Narcotic	Relieves pain, induces drowsiness and gives a sense of well-being.
+102	Nervine	Stimulates and calms the nerves.
+103	Nutritive	A food for convalescents to help restore strength.
+104	Odontalgic	Treats toothache (temporary measure only) and other problems of the teeth and gums.
+105	Ophthalmic	Treats eye complaints.
+106	Oxytoxic	Hastens parturition and stimulates uterine contractions. See also birthing aids.
+107	Parasiticide	Treats external parasites such as ringworm This should perhaps be joined with Parasiticide in 'Other Uses'.
+108	Pectoral	Relieves respiratory diseases, a remedy for chest diseases.
+109	Plaster	Used in the treatment of broken bones.
+110	Poultice	A moist, usually warm or hot, mass of plant material applied to the skin in the treatment of burns etc.
+111	Purgative	A drastic laxative causing a cleansing or watery evacuation of the bowels, usually with a griping pain.
+112	Refrigerant	Cools the body.
+113	Resolvent	Breaks down tumors. This might be placed under antitumor.
+114	Restorative	Restores consciousness or normal physiological activity.
+115	Rubefacient	A counter-irritant and external stimulant, it produces inflammation and redness of the skin.
+116	Salve	Soothes and heals damaged skin.
+117	Sedative	Gently calms, reducing nervousness, distress and irritation.
+118	Sialagogue	Stimulates the secretion of saliva.
+119	Skin	Plants used in miscellaneous treatments for the skin.
+120	Sternutatory	Promotes sneezing and nasal discharges.
+121	Stimulant	Excites or quickens activity of the physiological processes. Faster acting than a tonic but differing from a narcotic in that it does not give a false sense of well-being.
+122	Stings	Used in the treatment of stings and insect bites.
+123	Stomachic	Aids and improves the action of the stomach.
+124	Styptic	An astringent that stops bleeding by contracting the blood vessels.
+125	TB	Plants used in the treatment of tuberculosis
+126	Tonic	Improves general health. Slower acting than a stimulant, it brings steady improvement.
+127	Uterine tonic	A tonic for the uterus. See also oxytoxic.
+128	Vasoconstrictor	Narrows the blood vessels, thereby increasing blood pressure.
+129	Vasodilator	Widens the blood vessels, thereby reducing blood pressure.
+130	VD	Used in the treatment of venereal disease
+131	Vermifuge	Expels and kills internal parasites.
+132	Vesicant	A blistering agent.
+133	Vulnerary	Promotes the healing of wounds.
+134	Warts	Used in the treatment of warts, corns etc.
+135	Women's complaints	A very vague title, it deals with a miscellany of problems peculiar to the female sex.

@@ -1,0 +1,161 @@
+id	Latin_Name	name	Cultivar	Seed_viability_years_min	Seed_viability_years_max	Number_of_seeds_per_g	Germination_time__days__min__Short__Long__Extra_Long	Germination_time__days__max__Short__Long__Extra_Long	aprox_seeds_per_pack	aprox_mL_seeds
+0	Echinacea purpurea					10	20			
+1	Abelmoschus esculentus	Okra, Abelmoschus		1	3	300	0			
+2	Achillea millefolium	Achillea millefolium		4	4	0	0			
+3	Actinidia deliciosa	Actinidia deliciosa		0	0	30	0			
+4	Agastache foeniculum	Agastache foeniculum		3	3	0	0			
+5	Allium schoenoprasum	Allium schoenoprasum		2	2	200	0			
+6	Anethum graveolens	Anethum graveolens		5	5	0	0			
+7	Anthriscus cerefolium	Anthriscus cerefolium		4	4	56	0			
+8	Apium graveolens rapaceum	Celleryac		2	2	0	0			
+9	Araucaria araucana	Araucaria araucana		21	32	0	0			
+10	Asimina triloba	Asimina triloba		0	0	32	0			
+11	Basella rubra	Basella rubra		3	3	0	0			
+12	Calendula officinalis	Calendula officinalis		5	5	0	0			
+13	Capsella bursa-pastoris	Capsella		1	1	300	0			
+14	Capsicum frutescens	Capsicum hot peppers	Capsicum hot peppers	3	3	24	0			
+15	Castanea dentata	Castanea dentata		21	32	0	0			
+16	Castanea mollissima	Castanea mollissima		21	32	0	0			
+17	Castanea sativa	Castanea sativa		21	32	0	0			
+18	Cichorium endiva	Cichorium endive		4	4	306	0			
+19	Cichorium intybus	Cicoria cicoria		0	0	700	0			
+20	Coriandrum sativum	Coriandum sativum		2	2	100	0			
+21	Cornus kousa	Cornus kousa		0	0	19	0			
+22	Foeniculum vulgare	Asteraceae fennel		3	3	0	0			
+23	Gleditsia triacanthos	Gleditsia triacanthos		0	0	7	0			
+24	Levisticum officinale	Levisticum officinale		1	3	50	0			
+25	Malus fusca	Malus fusca		0	0	30	0			
+26	Melissa officinalis	Melissa officinalis		4	4	0	0			
+27	Mentha species	Mentha 0		2	2	2000	0			
+28	Mentha spicata	Mentha spicata		3	3	0	0			
+29	Mentha x piperita vulgaris	Mentha piperita		2	2	0	0			
+30	Origanum vulgare hirtum	Oreganum heracleoticum		4	4	0	0			
+31	Physalis philadelphica	Physalis philadelphica		2	200	48	0			
+32	Portulaca oleracea	Portulaca oleraceae		2	2	0	0			
+33	Prunus americana	Prunus americanavar. nigra	var. nigra	0	0	2	0			
+34	Prunus persica	Prunus persica		0	0	24	0			
+35	Pyrus bretschneideri	Pyrus bretschneideris		0	0	30	0			
+36	Ribes uva-crispa	Ribes uva-crispa		4	4	306	0			
+37	Rubus laciniatus	Rubus laciniatus		0	0	400	0			
+38	Rubus spectabilis	Rubus spectabilis		0	0	150	0			
+39	Rubus ursinus	Rubus ursinus		0	0	400	0			
+40	Rumex acetosa	Rumex acetosa		3	3	0	0			
+41	Rumex acetosella	Rumex acetosella		3	3	0	0			
+42	Salvia officinalis	Salvia officinalis		5	5	0	0			
+43	Tropaeolum majus	Tropaeolum majus		0	0	14	0			
+44	Allium porrum	Leek	0				1	14		
+45	Arachis hypogaea	Pea nut					1	14		
+46	Avena sativa	Oats	0	7	7	0	1	14		
+47	Beta vulgaris craca	Beet	Root				1	14		
+48	Beta vulgaris flavescens	Chard, Swiss	0	4	5	320	1	14		
+49	Brassica napus napobrassica	Rutabaga	0	3	3	250	1	14		
+50	Brassica napus napus	Rape Seed					1	14		
+51	Brassica oleracea	Kale	0	1	5	306	1	14		
+52	Brassica oleracea botrytis	Cauliflower	0				1	14		
+53	Brassica oleracea capitata	cabbage, Spring	Capitata				1	14		
+54	Brassica oleracea gemmifera	Brussels sprouts	winter				1	14		
+55	Brassica oleracea gongylodes	Kohlrabi	0				1	14		
+56	Brassica oleracea italica	Broccoli	0				1	14		
+57	Brassica oleracea viridis	Collards	0	0	0	320	1	14		
+58	Brassica rapa	Turnip	milan - early italian	3	5	52	1	14		
+59	Brassica rapa pekinensis	Mustard Greens	tatsoi				1	14		
+60	Brassica rapa perviridis	Mustard	Curly				1	14		
+61	Carthamnus tinctorius	Saflower					1	14		
+62	Chenopodium quinoa	Quinoa	0	4	4	440	1	14		
+63	Cicer arietinum	Chickpea, Hannan	Hannan				1	14		
+64	Cistus ladanifer	Mangels					1	14		
+65	Citrullus lanatus	Watermelon	0	3	7	0	1	14		
+66	Cucumis melo	Melons		4	5	440	1	14		
+67	Cucumis melo cantalupensis	Squash, Cantelope	Earligold F1				1	14		
+68	Cucumis sativus	Cucumber		2	2	4	1	14		
+69	Cucumis sativus	cucumber slicing		3	7	40	1	14		
+70	Cucurbita argyrosperma	Squash, cushaw	0				1	14		
+71	Cucurbita maxima	Cucurbita maxima		5	7	0	1	14		
+72	Cucurbita moschata	Squash, butternut	burgess buttercup	5	5	12	1	14		
+73	Cucurbita pepo	Pumpkin		4	4	180	1	14		
+74	Cucurbita pepo	Cucurbita mixta		5	5	4	1	14		
+75	Cucurbita pepo	Cucurbita pepo		3	7	40	1	14		
+76	Daucus carota sativus	Carrot	danvers				1	14		
+77	Fagopyrum esculentum	Buckwheat	Hannan				1	14		
+78	Hordeum vulgare	Barley	0	5	5	0	1	14		
+79	Linum usitatissimum	Flax	0				1	14		
+80	Lycium andersonii	Wolf berry	0				1	14		
+81	Lycopersicon esculentum	Tomatoe	Pink Lady	3	4	2	1	14		
+82	Medicago sativa	Alfalfa					1	14		
+83	Moneses uniflora	Teosinte					1	14		
+84	Pennisetum glaucum	Millet					1	14		
+85	Prunus apetala	Clover	redcurrant (indet)				1	14		
+86	Raphanus sativus	Radish	0	0	0	90	1	14		
+87	Sonchus oleraceus	sow thistle					1	14		
+88	Sorghum bicolor	Sorghum					1	14		
+89	Spinacia oleracea	Spinach	Tyee	3	5	75	1	14		
+90	Symphytum uplandicum	Comfrey	0				1	14		
+91	Tragopogon porrifolius	Salsify	0	2	2	0	1	14		
+92	Triticum aestivum	Wheat, Lavaras	0	2	3	2	1	14		
+93	Vicia americana	Vetch					1	14		
+94	Vigna unguiculata cylindrica	cowpea					1	14		
+95	Zea mays	corn	New delight sweet OP	2	2	6	1	14		
+96	Glycine max	Glycine max		7	7	4	1	16		
+97	Lactuca sativa	Lettuce	Linnaea Lettuce Mix	3	5	64	2	15		
+98	Allium cepa	Onion	love in a mist	2	5	380	6	12		
+99	Pisum sativum	Pea	Brazil??	2	5	4	6	14		
+100	Allium ampeloprasum	Allium ampeloprasum		5	5	64	7			
+101	Beta vulgaris maritima	Beta vulgaris		4	5	52	7			
+102	Brassica juncea	Brassica Mustard	Brassica Mustard	7	7	4	7			
+103	Daucus carota	Daucus carrota		0	0	920	7			
+104	Lycium barbarum	Lycium barbarum		0	0	0	7			
+105	Secale cereale	Secale cereale		2	2	4	7			
+106	Trifolium pratense	Trifolium pratense		0	0	580	7			
+107	Trifolium repens	Trifolium repens		0	0	1830	7			
+108	Lens culinaris	Bean, lentil	0				8	16		
+109	Phaseolus coccineus	Bean	norweigan dry	3	7	0	8	16		
+110	Phaseolus lunatus	Bean, Bush Lima	0	3	3	1	8	16		
+111	Phaseolus vulgaris	Bean	kentucky wondert	1	7	40	8	16		
+112	Vicia Fava	Vicia Fava		3	3	2	8	16		
+113	Vigna radiata	Vigna radiata		0	0	6	8	16		
+114	Helianthus annuus	Sunflower	0				10	14		
+115	Solanum tuberosum	Potato, Fingerling	Fingerling	3	3	0	14	21		
+116	Abelmoschus esculentus	Okra	0				14	28		
+117	Allium cepa ascalonicum	Shallots					14	28		
+118	Allium sativum	Garlic	0	3	4	306	14	28		
+119	Amaranthus cruentus	Amaranth	purple amaranth, red amaranth, and Mexican grain amaranth	0	0	306	14	28		
+120	Apium graveolens dulce	Celery	minuteman hybrid	2	2	87	14	28		
+121	Armoracia rusticana	Horseradish	LIVE ROOTS	0	0	0	14	28		
+122	Asparagus officinalis	Asparagus from crown	0	3	3	25	14	28		
+123	Carya illinoinensis	Pecan		0	0	0	14	28		
+124	Chenopodium album	Lambs Quarters	0	1	1	0	14	28		
+125	Cornus mas	Cherry, Cornelian	0				14	28		
+126	Cynara scolymus	Artichoke, Globe	0				14	28		
+127	Erythronium grandiflorum	Avocado					14	28		
+128	Helianthus tuberosus	Jerusalem Artichoke	0	3	3	306	14	28		
+129	Ipomoea batatas	Sweet Potatoe					14	28		
+130	Juglans regia	English walnut					14	28		
+131	Ocimum basilicum	Basil	0	0	0	0	14	28		
+132	Pennisetum glaucum	Pearl millet					14	28		
+133	Petroselinum crispum	Parsley	0	3	3	250	14	28		
+134	Portulaca oleracea sativa	Purselaine	0				14	28		
+135	Prunus armeniaca	Apricot					14	28		
+136	Prunus dulcis	Almond					14	28		
+137	Rheum x cultorum	Rhubarb	0			60	14	28		
+138	Sesamum indicum	Sesame					14	28		
+139	Solanum melongena	Egg Plant	0	3	3	1	14	28		
+140	Taraxacum officinale	Dandelion					14	28		
+141	Tetragonia tetragonoides	New Zealand Spinach	0				14	28		
+142	Triticum aestivum	Early stone age wheat		2	3	2	14	28		
+143	Pastinaca sativa	Parsnip	Lancer	1	2	380	14	30		
+144	Capsicum annuum	Pepper, Cayenne	0	4	4	0	14	365		
+145	Cynara cardunculus	Cynara cardunculis		1	1	0	14			
+146	Prunus cerasus	Prunus cerasus		0	0	0	14			
+147	Prunus cerasus marasca	Cherrie		0	0	9	14			
+148	Artemisia dracunculus	Tarragon	dracunculus	4	4	600	21	21		
+149	Carpobrotus edulis	Peppers, Chilli		4	5	0	21			
+150	Thymus vulgaris	Thyme	serphylum	2	3	600	22	22		
+151	Corylus americana	American hazel	0	0	0	0	30	180		
+152	Corylus avellana	Corylus avellana		0	0	0	30	180		
+153	Corylus maxima	Corylus maxima		0	0	0	30	180		
+154	Juglans nigra	Juglans nigra		0	0	0	30			
+155	Malus pumila	Malus pumila		0	0	0	30			
+156	Pyrus communis sativa	Pear	0				28	0		
+157	Juglans nigra	BlackWalnut					28			
+158	Juglans nigra	Eastern Black Walnut					28			
+159	Rhus typhina					500				

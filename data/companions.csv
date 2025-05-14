@@ -1,0 +1,707 @@
+id	latin_name	companion_latin_name	in_space	in_proximity	in_time	relations	hinderance_in_space	hinderance_in_time	hinderance_in_proximity
+0	Cydonia oblonga	Symphytum officinale	TRUE	FALSE	FALSE	bioaccumulator			
+1	Cydonia oblonga	Matricaria recutita	TRUE		FALSE	now?			
+2	Cydonia oblonga	Tagetes lucida	FALSE	FALSE	FALSE				
+3	Cydonia oblonga	Borago officinalis	FALSE	FALSE	FALSE				
+4	Cydonia oblonga	Allium schoenoprasum	FALSE	FALSE	FALSE				
+5	Cydonia oblonga	Allium sativum	FALSE	FALSE	FALSE				
+6	Cydonia oblonga	Tropaeolum majus	FALSE	FALSE	FALSE				
+8	Actinidia deliciosa	Origanum majorana	FALSE	FALSE	FALSE				
+9	Actinidia deliciosa	Melissa officinalis	FALSE	FALSE	FALSE				
+10	Actinidia deliciosa	Tagetes patula	FALSE	FALSE	FALSE				
+11	Asparagus officinalis	Lycopersicon esculentum	FALSE	FALSE	FALSE				
+12	Asparagus officinalis	Petroselinum crispum	FALSE	FALSE	FALSE				
+13	Asparagus officinalis	Ocimum basilicum	FALSE	FALSE	FALSE				
+14	Asparagus officinalis	Lactuca sativa	FALSE	FALSE	FALSE				
+15	Asparagus officinalis	Brassica oleracea	FALSE	FALSE	FALSE				
+16	Asparagus officinalis	Calendula officinalis	FALSE	FALSE	FALSE				
+17	Borago officinalis	Physalis ixocarpa	FALSE	FALSE	FALSE				
+18	Borago officinalis	Fragaria x ananassa	FALSE	FALSE	FALSE				
+19	Borago officinalis	Cucurbita moschata	FALSE	FALSE	FALSE				
+21	Calendula officinalis	Lycopersicon esculentum	FALSE	FALSE	FALSE				
+22	Ficus carica	Sagittaria sagittifolia	FALSE	FALSE	FALSE				
+23	Ficus carica	Tagetes erecta	FALSE	FALSE	FALSE				
+24	Ficus carica	Fragaria x ananassa	FALSE	FALSE	FALSE				
+25	Ficus carica	Tagetes filifolia	FALSE	FALSE	FALSE				
+26	Ficus carica	Tagetes lucida	FALSE	FALSE	FALSE				
+27	Ficus carica	Tagetes micrantha	FALSE	FALSE	FALSE				
+28	Ficus carica	Tagetes minuta	FALSE	FALSE	FALSE				
+29	Ficus carica	Tagetes patula	FALSE	FALSE	FALSE				
+30	Ficus carica	Tagetes tenuifolia	FALSE	FALSE	FALSE				
+31	Helianthus tuberosus	Phaseolus coccineus	FALSE	FALSE	FALSE				
+32	Helianthus tuberosus	Phaseolus vulgaris	FALSE	FALSE	FALSE				
+33	Helianthus tuberosus	Cucumis sativus	FALSE	FALSE	FALSE				
+34	Laurus nobilis	Rosmarinus officinalis	FALSE	FALSE	FALSE				
+35	Laurus nobilis	Origanum vulgare	FALSE	FALSE	FALSE				
+36	Laurus nobilis	Olea europaea	FALSE	FALSE	FALSE				
+37	Laurus nobilis	Citrus aurantium	FALSE	FALSE	FALSE				
+38	Laurus nobilis	Citrus ichangensis	FALSE	FALSE	FALSE				
+39	Laurus nobilis	Citrus limon	FALSE	FALSE	FALSE				
+40	Laurus nobilis	Citrus reticulata	FALSE	FALSE	FALSE				
+41	Laurus nobilis	Citrus sinensis	FALSE	FALSE	FALSE				
+42	Laurus nobilis	Citrus x meyeri	FALSE	FALSE	FALSE				
+45	Lavandula angustifolia	Brassica oleracea capitata	FALSE	FALSE	FALSE				
+46	Lavandula angustifolia	Brassica oleracea botrytis	FALSE	FALSE	FALSE				
+47	Malus domestica	Allium sativum	FALSE	FALSE	FALSE				
+49	Malus domestica	Borago officinalis	FALSE	FALSE	FALSE	insectary			
+50	Malus domestica	Anethum graveolens	FALSE	FALSE	FALSE	insectary			
+51	Malus domestica	Allium schoenoprasum	FALSE	FALSE	FALSE	grass 			
+52	Malus domestica	Tropaeolum majus	FALSE	FALSE	FALSE				
+61	Origanum majorana	Cucurbita argyrosperma	FALSE	FALSE	FALSE				
+62	Origanum majorana	Cucurbita ficifolia	FALSE	FALSE	FALSE				
+63	Origanum majorana	Cucurbita foetidissima	FALSE	FALSE	FALSE				
+64	Origanum majorana	Cucurbita maxima	FALSE	FALSE	FALSE				
+65	Origanum majorana	Cucurbita moschata	FALSE	FALSE	FALSE				
+66	Origanum majorana	Cucurbita pepo	FALSE	FALSE	FALSE				
+67	Origanum majorana	Solanum melongena	FALSE	FALSE	FALSE				
+68	Origanum vulgare	Lycopersicon esculentum	FALSE	FALSE	FALSE				
+69	Origanum vulgare	Ocimum basilicum	FALSE	FALSE	FALSE				
+70	Origanum vulgare	Capsicum annuum	FALSE	FALSE	FALSE				
+71	Origanum vulgare	Capsicum baccatum	FALSE	FALSE	FALSE				
+72	Origanum vulgare	Capsicum frutescens	FALSE	FALSE	FALSE				
+73	Origanum vulgare	Capsicum pubescens	FALSE	FALSE	FALSE				
+74	Prunus persica	Borago officinalis	FALSE	FALSE	FALSE				
+75	Prunus persica	Allium schoenoprasum	FALSE	FALSE	FALSE				
+76	Prunus persica	Symphytum officinale	FALSE	FALSE	FALSE				
+77	Prunus persica	Fragaria x ananassa	FALSE	FALSE	FALSE				
+78	Prunus persica	Tagetes erecta	FALSE	FALSE	FALSE				
+79	Prunus persica	Tagetes filifolia	FALSE	FALSE	FALSE				
+80	Prunus persica	Tagetes lucida	FALSE	FALSE	FALSE				
+81	Prunus persica	Tagetes micrantha	FALSE	FALSE	FALSE				
+82	Prunus persica	Tagetes minuta	FALSE	FALSE	FALSE				
+83	Prunus persica	Tagetes patula	FALSE	FALSE	FALSE				
+84	Prunus persica	Tagetes tenuifolia	FALSE	FALSE	FALSE				
+85	Prunus persica	Calendula officinalis	FALSE	FALSE	FALSE				
+86	Prunus persica nucipersica	Borago officinalis	FALSE	FALSE	FALSE				
+87	Prunus persica nucipersica	Allium schoenoprasum	FALSE	FALSE	FALSE				
+88	Prunus persica nucipersica	Symphytum uplandicum	FALSE	FALSE	FALSE				
+89	Prunus persica nucipersica	Fragaria x ananassa	FALSE	FALSE	FALSE				
+90	Prunus persica nucipersica	Tagetes erecta	FALSE	FALSE	FALSE				
+91	Prunus persica nucipersica	Tagetes filifolia	FALSE	FALSE	FALSE				
+92	Prunus persica nucipersica	Tagetes lucida	FALSE	FALSE	FALSE				
+93	Prunus persica nucipersica	Tagetes micrantha	FALSE	FALSE	FALSE				
+94	Prunus persica nucipersica	Tagetes minuta	FALSE	FALSE	FALSE				
+95	Prunus persica nucipersica	Tagetes patula	FALSE	FALSE	FALSE				
+96	Prunus persica nucipersica	Tagetes tenuifolia	FALSE	FALSE	FALSE				
+97	Prunus persica nucipersica	Calendula officinalis	FALSE	FALSE	FALSE				
+98	Ribes nigrum	Tagetes erecta	FALSE	FALSE	FALSE				
+99	Ribes nigrum	Tagetes filifolia	FALSE	FALSE	FALSE				
+100	Ribes nigrum	Tagetes lucida	FALSE	FALSE	FALSE				
+101	Ribes nigrum	Tagetes micrantha	FALSE	FALSE	FALSE				
+102	Ribes nigrum	Tagetes minuta	FALSE	FALSE	FALSE				
+103	Ribes nigrum	Tagetes patula	FALSE	FALSE	FALSE				
+104	Ribes uva-crispa	Tagetes erecta	TRUE	FALSE	FALSE				
+105	Ribes uva-crispa	Tagetes filifolia	TRUE	FALSE	FALSE				
+106	Ribes uva-crispa	Tagetes lucida	TRUE	FALSE	FALSE				
+107	Ribes uva-crispa	Tagetes micrantha	TRUE	FALSE	FALSE				
+108	Ribes uva-crispa	Tagetes minuta	TRUE	FALSE	FALSE				
+109	Ribes uva-crispa	Tagetes patula	TRUE	FALSE	FALSE				
+110	Ribes uva-crispa	Tagetes tenuifolia	TRUE	FALSE	FALSE				
+111	Rosmarinus officinalis	Phaseolus coccineus	FALSE	FALSE	FALSE				
+112	Rosmarinus officinalis	Phaseolus lunatus	FALSE	FALSE	FALSE				
+113	Rosmarinus officinalis	Phaseolus vulgaris	FALSE	FALSE	FALSE				
+114	Rosmarinus officinalis	Brassica oleracea italica	FALSE	FALSE	FALSE				
+115	Rosmarinus officinalis	Brassica oleracea capitata	FALSE	FALSE	FALSE				
+116	Rosmarinus officinalis	Daucus carota sativus	FALSE	FALSE	FALSE				
+117	Rosmarinus officinalis	Capsicum frutescens	FALSE	FALSE	FALSE				
+118	Rosmarinus officinalis	Capsicum annuum	FALSE	FALSE	FALSE				
+119	Rosmarinus officinalis	Capsicum baccatum	FALSE	FALSE	FALSE				
+120	Rosmarinus officinalis	Salvia officinalis	FALSE	FALSE	FALSE				
+121	Rubus idaeus	Anethum graveolens	FALSE	TRUE	FALSE				
+122	Rubus idaeus	Centaurea cyanus	FALSE	TRUE	FALSE				
+123	Rumex acetosa	Fragaria x ananassa	FALSE	FALSE	FALSE				
+124	Rumex acetosa	Vaccinium corymbosum	FALSE	FALSE	FALSE				
+125	Rumex acetosa	Fragaria	FALSE	FALSE	FALSE				
+127	Rumex acetosa	Fragaria bracteata	FALSE	FALSE	FALSE				
+128	Rumex acetosa	Fragaria californica	FALSE	FALSE	FALSE				
+129	Rumex acetosa	Fragaria chiloensis	FALSE	FALSE	FALSE				
+130	Rumex acetosa	Fragaria daltoniana	FALSE	FALSE	FALSE				
+131	Rumex acetosa	Fragaria iinumae	FALSE	FALSE	FALSE				
+132	Rumex acetosa	Fragaria moschata	FALSE	FALSE	FALSE				
+133	Rumex acetosa	Fragaria nilgerrensis	FALSE	FALSE	FALSE				
+134	Rumex acetosa	Fragaria nipponica	FALSE	FALSE	FALSE				
+135	Rumex acetosa	Fragaria nubicola	FALSE	FALSE	FALSE				
+136	Rumex acetosa	Fragaria orientalis	FALSE	FALSE	FALSE				
+137	Rumex acetosa	Fragaria ovalis	FALSE	FALSE	FALSE				
+138	Rumex acetosa	Fragaria vesca	FALSE	FALSE	FALSE				
+139	Rumex acetosa	Fragaria vesca 'Semperflorens'	FALSE	FALSE	FALSE				
+140	Rumex acetosa	Fragaria virginiana	FALSE	FALSE	FALSE				
+141	Rumex acetosa	Fragaria viridis	FALSE	FALSE	FALSE				
+142	Sambucus nigra	Allium sativum	FALSE	FALSE	FALSE				
+143	Sambucus nigra	Symphytum officinale	FALSE	FALSE	FALSE				
+144	Sambucus nigra	Borago officinalis	FALSE	FALSE	FALSE				
+145	Sambucus nigra	Anethum graveolens	FALSE	FALSE	FALSE				
+146	Sambucus nigra	Allium schoenoprasum	FALSE	FALSE	FALSE				
+147	Sambucus nigra	Tropaeolum majus	FALSE	FALSE	FALSE				
+148	Vaccinium corymbosum	Ocimum basilicum	FALSE	FALSE	FALSE				
+149	Vaccinium corymbosum	Thymus vulgaris	FALSE	FALSE	FALSE				
+183	Vitis vinifera	Ocimum basilicum	FALSE	FALSE	FALSE				
+184	Vitis vinifera	Phaseolus coccineus	FALSE	FALSE	FALSE				
+185	Vitis vinifera	Phaseolus lunatus	FALSE	FALSE	FALSE				
+186	Vitis vinifera	Phaseolus vulgaris	FALSE	FALSE	FALSE				
+187	Vitis vinifera	Origanum vulgare	FALSE	FALSE	FALSE				
+188	Vitis vinifera	Pisum sativum	FALSE	FALSE	FALSE				
+189	Vitis vinifera	Pisum sativum arvense	FALSE	FALSE	FALSE				
+190	Vitis vinifera	Pisum sativum elatius	FALSE	FALSE	FALSE				
+191	Vitis vinifera	Rubus fruticosus	FALSE	FALSE	FALSE				
+192	Vitis vinifera	Trifolium bifidum	FALSE	FALSE	FALSE				
+193	Vitis vinifera	Trifolium ciliatum	FALSE	FALSE	FALSE				
+194	Vitis vinifera	Trifolium cyathiferum	FALSE	FALSE	FALSE				
+195	Vitis vinifera	Trifolium dichotomum	FALSE	FALSE	FALSE				
+196	Vitis vinifera	Trifolium dubium	FALSE	FALSE	FALSE				
+197	Vitis vinifera	Trifolium fimbriatum	FALSE	FALSE	FALSE				
+198	Vitis vinifera	Trifolium fucatum	FALSE	FALSE	FALSE				
+199	Vitis vinifera	Trifolium fucatum virescens	FALSE	FALSE	FALSE				
+200	Vitis vinifera	Trifolium gracilentum	FALSE	FALSE	FALSE				
+201	Vitis vinifera	Trifolium hybridum	FALSE	FALSE	FALSE				
+202	Vitis vinifera	Trifolium incarnatum	FALSE	FALSE	FALSE				
+203	Vitis vinifera	Trifolium lupinaster	FALSE	FALSE	FALSE				
+204	Vitis vinifera	Trifolium macrocephalum	FALSE	FALSE	FALSE				
+205	Vitis vinifera	Trifolium microcephalum	FALSE	FALSE	FALSE				
+206	Vitis vinifera	Trifolium ornithopodioides	FALSE	FALSE	FALSE				
+207	Vitis vinifera	Trifolium pratense	FALSE	FALSE	FALSE				
+208	Vitis vinifera	Trifolium repens	FALSE	FALSE	FALSE				
+209	Vitis vinifera	Trifolium subterraneum	FALSE	FALSE	FALSE				
+210	Vitis vinifera	Trifolium variegatum	FALSE	FALSE	FALSE				
+211	Vitis vinifera	Trifolium tridentatum	FALSE	FALSE	FALSE				
+212	Vitis vinifera	Trifolium wormskjoldii	FALSE	FALSE	FALSE				
+213	Allium tricoccum	Asarum arifolium	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+214	Allium tricoccum	Asarum blumei	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+215	Allium tricoccum	Asarum canadense	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+216	Allium tricoccum	Asarum caudatum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+217	Allium tricoccum	Asarum dilatatum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+218	Allium tricoccum	Asarum europaeum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+219	Allium tricoccum	Asarum forbesii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+220	Allium tricoccum	Asarum heterotropoides	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+221	Allium tricoccum	Asarum maximum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+222	Allium tricoccum	Asarum nipponicum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+223	Allium tricoccum	Asarum reflexum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+224	Allium tricoccum	Asarum shuttleworthii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+225	Allium tricoccum	Asarum sieboldii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+226	Allium tricoccum	Asarum takaoi	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+227	Allium tricoccum	Dicentra canadensis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+228	Allium tricoccum	Dicentra cucullaria	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+229	Allium tricoccum	Dicentra spectabilis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+232	Allium tricoccum	Erythronium americanum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+248	Althaea officinalis	Pyrola minor	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+249	Althaea officinalis	Acorus gramineus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+250	Althaea officinalis	Ligularia amplexicaulis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+251	Althaea officinalis	Ligularia hiberniflorum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+252	Althaea officinalis	Ligularia hodgsonii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+253	Althaea officinalis	Ligularia intermedia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+254	Althaea officinalis	Ligularia japonica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+255	Althaea officinalis	Ligularia sibirica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+256	Althaea officinalis	Iris ensata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+257	Althaea officinalis	Iris sanguinea	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+259	Solanum tuberosum	Armoracia rusticana	TRUE	TRUE	TRUE	deters wireworm	FALSE	FALSE	FALSE
+260	Armoracia rusticana	Prunus domestica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+261	Armoracia rusticana	Solanum tuberosum	FALSE	FALSE	FALSE	deters wire worm from eating potatoes	FALSE	FALSE	FALSE
+262	Armoracia rusticana	Dioscorea deltoidea	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+263	Vaccinium corymbosum	Quercus garryana	FALSE	FALSE	FALSE	oaks	FALSE	FALSE	FALSE
+264	Vaccinium corymbosum	Pinus cembra	FALSE	FALSE	FALSE	pines	FALSE	FALSE	FALSE
+265	Berberis darwinii	Canna edulis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+266	Berberis darwinii	Canna glauca	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+267	Berberis darwinii	Canna indica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+268	Berberis darwinii	Salvia farinaceae	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+269	Berberis darwinii	Stachys byzantina	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+270	Berberis darwinii	Lobularia maritima	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+271	Berberis darwinii	Pennisetum setaceum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+272	Berberis darwinii	Buxus balearica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+273	Berberis darwinii	Buxus harlandii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+274	Berberis darwinii	Buxus microphylla	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+275	Berberis darwinii	Buxus sempervirens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+276	Berberis darwinii	Buxus wallichiana	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+277	Berberis darwinii	Geranium bicknellii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+278	Berberis darwinii	Geranium dissectum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+279	Berberis darwinii	Geranium erianthum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+280	Berberis darwinii	Geranium incanum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+281	Berberis darwinii	Geranium lucidum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+282	Berberis darwinii	Geranium macrorrhizum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+283	Berberis darwinii	Geranium maculatum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+284	Berberis darwinii	Geranium molle	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+285	Berberis darwinii	Geranium nepalense	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+286	Berberis darwinii	Geranium ocellatum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+287	Berberis darwinii	Geranium pilosum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+288	Berberis darwinii	Geranium potentilloides	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+289	Berberis darwinii	Geranium pratense	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+290	Berberis darwinii	Geranium pusillum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+291	Berberis darwinii	Geranium robertianum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+292	Berberis darwinii	Geranium rotundifolium	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+293	Berberis darwinii	Geranium sibiricum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+294	Berberis darwinii	Geranium solanderi	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+295	Berberis darwinii	Geranium sylvaticum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+296	Berberis darwinii	Geranium thunbergii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+297	Berberis darwinii	Geranium tuberosum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+298	Berberis darwinii	Geranium viscosissimum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+299	Berberis darwinii	Geranium wallichianum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+300	Berberis darwinii	Geranium wilfordii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+301	Buddleia davidii	Elaeagnus x ebbingei	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+302	Buddleia davidii	Nepeta x faassenii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+303	Buddleia davidii	Lavatera x clementii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+304	Buddleia davidii	Macleaya microcarpa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+305	Buddleia davidii	Rosmarinus officinalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+306	Buddleia davidii	Elaeagnus umbellata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+307	Calluna vulgaris	Pinus koraiensis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+309	Calluna vulgaris	Pinus pinea	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+310	Calluna vulgaris	Pinus wallichiana	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+311	Calluna vulgaris	Pinus flexilis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+312	Calluna vulgaris	Picea omorika	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+313	Calluna vulgaris	Picea orientalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+314	Calluna vulgaris	Picea pungens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+315	Calluna vulgaris	Thuja occidentalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+316	Calluna vulgaris	Pinus cembra	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+317	Calluna vulgaris	Picea glauca	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+318	Calluna vulgaris	Pinus contorta	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+319	Calluna vulgaris	Taxus baccata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+320	Calluna vulgaris	Taxus brevifolia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+321	Calluna vulgaris	Cordyline australis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+322	Calluna vulgaris	Cornus capitata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+323	Calluna vulgaris	Laurus nobilis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+324	Calluna vulgaris	Magnolia grandiflora	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+325	Calluna vulgaris	Camellia japonica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+326	Calluna vulgaris	Arbutus unedo	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+327	Calluna vulgaris	Prunus lusitanica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+328	Calluna vulgaris	Prunus laurocerasus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+329	Calluna vulgaris	Elaeagnus x ebbingei	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+330	Calluna vulgaris	Ilex crenata 	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+331	Caragana arborescens	Syringa vulgaris	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+332	Caragana arborescens	Perovskia atriplicifolia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+333	Caragana arborescens	Leucanthemum maximum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+334	Corylus avellana	Helleborus foetidus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+335	Corylus avellana	Helleborus niger	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+336	Corylus avellana	Helleborus viridis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+337	Corylus avellana	Galanthus nivalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+338	Corylus avellana	Pulmonaria officinalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+339	Corylus avellana	Pulmonaria saccharata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+340	Corylus avellana	Papaver orientale	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+341	Corylus avellana	Crocus cancellatus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+342	Corylus avellana	Crocus kotschyanus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+343	Corylus avellana	Crocus nudiflorus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+344	Corylus avellana	Crocus sativus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+345	Corylus avellana	Crocus serotinus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+346	Corylus avellana	Camassia quamash	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+347	Corylus avellana	Hemerocallis species	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+348	Corylus avellana	Hemerocallis lilioasphodelus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+349	Corylus avellana	Hemerocallis fulva	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+350	Corylus avellana	Hemerocallis citrina	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+351	Malus domestica	Camassia quamash	FALSE	FALSE	FALSE	grass suppressing	FALSE	FALSE	FALSE
+352	Malus domestica	Allium tuberosum	FALSE	FALSE	FALSE	suppressing	FALSE	FALSE	FALSE
+353	Malus domestica	Foeniculum vulgare	FALSE	FALSE	FALSE	insectary	FALSE	FALSE	FALSE
+354	Malus domestica	Monarda fistulosa	FALSE	FALSE	FALSE	insectary	FALSE	FALSE	FALSE
+355	Malus domestica	Monarda didyma	FALSE	FALSE	FALSE	insectary	FALSE	FALSE	FALSE
+356	Malus domestica	Achillea millefolium	FALSE	FALSE	FALSE	nutrient accumulator	FALSE	FALSE	FALSE
+357	Malus domestica	Cichorium intybus	FALSE	FALSE	FALSE	nutrient accumulator	FALSE	FALSE	FALSE
+358	Malus domestica	Plantago major	FALSE	FALSE	FALSE	nutrient accumulator	FALSE	FALSE	FALSE
+359	Malus domestica	Symphytum officinale	FALSE	FALSE	FALSE	mulch	FALSE	FALSE	FALSE
+360	Malus domestica	Cynara scolymus	FALSE	FALSE	FALSE	mulch	FALSE	FALSE	FALSE
+361	Malus domestica	Trifolium repens	FALSE	FALSE	FALSE	nitrogen fixer	FALSE	FALSE	FALSE
+363	Malus domestica	Trifolium pratense	FALSE	FALSE	FALSE	nitrogen fixer	FALSE	FALSE	FALSE
+364	Malus domestica	Vicia faba major	FALSE	FALSE	FALSE	nitrogen fixer	FALSE	FALSE	FALSE
+365	Malus domestica	Phaseolus coccineus	FALSE	FALSE	FALSE	nitrogen fixer	FALSE	FALSE	FALSE
+366	Malus domestica	Phaseolus vulgaris	FALSE	FALSE	FALSE	nitrogen fixer	FALSE	FALSE	FALSE
+367	Malus domestica	Phaseolus lunatus	FALSE	FALSE	FALSE	nitrogen fixer	FALSE	FALSE	FALSE
+368	Juglans regia	Celtis occidentalis	TRUE	FALSE	FALSE		FALSE	FALSE	FALSE
+369	Juglans regia	Ribes nigrum	TRUE	FALSE	FALSE	only when planted ewith hacknerry as well	FALSE	FALSE	FALSE
+370	Juglans regia	Lycium afrum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+371	Juglans regia	Lycium andersonii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+372	Juglans regia	Lycium arabicum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+373	Juglans regia	Lycium australe	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+374	Juglans regia	Lycium barbarum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+375	Juglans regia	Lycium berlandieri	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+376	Juglans regia	Lycium carolinianum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+377	Juglans regia	Lycium chinense	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+378	Juglans regia	Lycium europaeum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+379	Juglans regia	Lycium fremontii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+380	Juglans regia	Lycium pallidum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+381	Juglans regia	Lycium ruthenicum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+382	Juglans regia	Lycium schweinfurthii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+383	Juglans regia	Lycium torreyi	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+384	Juglans regia	Elaeagnus angustifolia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+389	Juglans regia	Elaeagnus commutata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+390	Juglans regia	Elaeagnus cordifolia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+391	Juglans regia	Elaeagnus formosana	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+392	Juglans regia	Elaeagnus fragrans	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+393	Juglans regia	Elaeagnus glabra	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+394	Juglans regia	Elaeagnus gonyanthes	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+395	Juglans regia	Elaeagnus latifolia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+396	Juglans regia	Elaeagnus macrophylla	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+397	Juglans regia	Elaeagnus maritima	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+398	Juglans regia	Elaeagnus montana	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+399	Juglans regia	Elaeagnus multiflora	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+400	Juglans regia	Elaeagnus multiflora ovata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+401	Juglans regia	Elaeagnus oldhamii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+402	Juglans regia	Elaeagnus orientalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+403	Juglans regia	Elaeagnus parvifolia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+404	Juglans regia	Elaeagnus pungens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+405	Juglans regia	Elaeagnus pyriformis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+406	Juglans regia	Elaeagnus thunbergii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+407	Juglans regia	Elaeagnus umbellata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+408	Juglans regia	Elaeagnus x ebbingei	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+409	Juglans regia	Elaeagnus x reflexa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+410	Juglans regia	Elaeagnus yoshinoi	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+412	Juglans regia	Morus species	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+413	Juglans regia	Sambucus nigra	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+414	Juglans regia	Ceanothus americanus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+415	Juglans regia	Ceanothus arboreus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+416	Juglans regia	Ceanothus cuneatus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+417	Juglans regia	Ceanothus divergens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+418	Juglans regia	Ceanothus fendleri	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+419	Juglans regia	Ceanothus impressus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+420	Juglans regia	Ceanothus integerrimus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+421	Juglans regia	Ceanothus maritimus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+422	Juglans regia	Ceanothus ovatus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+423	Juglans regia	Ceanothus prostratus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+424	Juglans regia	Ceanothus purpureus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+425	Juglans regia	Ceanothus sanguineus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+426	Juglans regia	Ceanothus species	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+427	Juglans regia	Ceanothus thyrsiflorus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+428	Juglans regia	Ceanothus velutinus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+429	Juglans regia	Robinia pseudoacacia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+430	Juglans regia	Acacia aneura	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+431	Juglans regia	Acacia coriacea	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+432	Juglans regia	Acacia cultriformis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+433	Juglans regia	Acacia dealbata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+434	Juglans regia	Acacia decurrens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+435	Juglans regia	Acacia farnesiana	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+436	Juglans regia	Acacia longifolia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+437	Juglans regia	Acacia melanoxylon	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+438	Juglans regia	Acacia mucronata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+439	Juglans regia	Acacia paradoxa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+440	Juglans regia	Acacia podalyriifolia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+441	Juglans regia	Acacia pycnantha	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+442	Juglans regia	Acacia retinodes	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+443	Juglans regia	Acacia saligna	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+444	Juglans regia	Acacia sophorae	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+445	Juglans regia	Acacia verticillata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+446	Juglans regia	Alnus rubra	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+457	Juglans regia	Alnus glutinosa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+459	Juglans regia	Laburnum alpinum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+460	Juglans regia	Laburnum anagyroides	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+461	Juglans regia	Albizia julibrissin	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+462	Juglans regia	Cercocarpus ledifolius	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+463	Juglans regia	Myrica cerifera	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+464	Pyrus communis sativa	Anethum graveolens	TRUE	TRUE	FALSE	pest protection	FALSE	FALSE	FALSE
+465	Pyrus communis sativa	Daucus carota	TRUE	TRUE	FALSE	pest protection	FALSE	FALSE	FALSE
+466	Pyrus communis sativa	Levisticum officinale	TRUE	TRUE	FALSE	pest protection	FALSE	FALSE	FALSE
+467	Pyrus communis sativa	Anthriscus cerefolium	TRUE	TRUE	FALSE	pest protection	FALSE	FALSE	FALSE
+468	Pyrus communis sativa	Foeniculum vulgare	TRUE	TRUE	FALSE	pest protection	FALSE	FALSE	FALSE
+469	Pyrus communis sativa	Trifolium repens	TRUE	TRUE	FALSE	multifunction	FALSE	FALSE	FALSE
+470	Pyrus communis sativa	Trifolium pratense	TRUE	TRUE	FALSE	multifunction	FALSE	FALSE	FALSE
+471	Pyrus communis sativa	Secale cereale ancestrale	TRUE	TRUE	FALSE	multifunction	FALSE	FALSE	FALSE
+472	Pyrus communis sativa	Fagopyrum esculentum	TRUE	TRUE	FALSE	multifunction	FALSE	FALSE	FALSE
+473	Pyrus communis sativa	Avena sativa	TRUE	TRUE	FALSE	multifunction	FALSE	FALSE	FALSE
+474	Pyrus communis sativa	Pyrus communis sativa	FALSE	TRUE	FALSE	cross-polllnation	FALSE	FALSE	FALSE
+475	Pyrus communis sativa	Lactuca sativa	FALSE	FALSE	FALSE	benifit from shade of leaves	FALSE	FALSE	FALSE
+476	Pyrus communis sativa	Spinacia oleracea	FALSE	FALSE	FALSE	benifit from shade of leaves	FALSE	FALSE	FALSE
+477	Pyrus communis sativa	Rumex acetosa	FALSE	FALSE	FALSE	benifit from shade of leaves	FALSE	FALSE	FALSE
+478	Pyrus communis sativa	Brassica oleracea italica	FALSE	FALSE	FALSE	benifit from shade of leaves	FALSE	FALSE	FALSE
+479	Pyrus communis sativa	Limnanthes douglasii	FALSE	FALSE	FALSE	secondary defense for boring pests and as a soil modifier to the root system	FALSE	FALSE	FALSE
+480	Pyrus communis sativa	Solidago virgaurea	FALSE	FALSE	FALSE	secondary defense for boring pests and as a soil modifier to the root system	FALSE	FALSE	FALSE
+481	Pyrus communis sativa	Ipomoea tricolor	FALSE	FALSE	FALSE	secondary defense for boring pests and as a soil modifier to the root system	FALSE	FALSE	FALSE
+482	Pyrus communis sativa	Monarda citriodora	FALSE	FALSE	FALSE	secondary defense for boring pests and as a soil modifier to the root system	FALSE	FALSE	FALSE
+483	Pyrus communis sativa	Monarda clinopodia	FALSE	FALSE	FALSE	secondary defense for boring pests and as a soil modifier to the root system	FALSE	FALSE	FALSE
+484	Pyrus communis sativa	Monarda didyma	FALSE	FALSE	FALSE	secondary defense for boring pests and as a soil modifier to the root system	FALSE	FALSE	FALSE
+485	Pyrus communis sativa	Monarda fistulosa	FALSE	FALSE	FALSE	secondary defense for boring pests and as a soil modifier to the root system	FALSE	FALSE	FALSE
+486	Pyrus communis sativa	Monarda menthifolia	FALSE	FALSE	FALSE	secondary defense for boring pests and as a soil modifier to the root system	FALSE	FALSE	FALSE
+487	Pyrus communis sativa	Monarda pectinata	FALSE	FALSE	FALSE	secondary defense for boring pests and as a soil modifier to the root system	FALSE	FALSE	FALSE
+488	Pyrus communis sativa	Monarda punctata	FALSE	FALSE	FALSE	secondary defense for boring pests and as a soil modifier to the root system	FALSE	FALSE	FALSE
+489	Pyrus communis sativa	Tropaeolum majus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+490	Pyrus communis sativa	Allium sativum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+491	Pyrus communis sativa	Phaseolus vulgaris	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+492	Pyrus communis sativa	Phaseolus lunatus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+493	Pyrus communis sativa	Phaseolus coccineus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+494	Pyrus communis sativa	Pisum sativum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+496	Pyrus communis sativa	Matricaria chamomilla	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+497	Pyrus communis sativa	Tagetes erecta	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+498	Pyrus communis sativa	Matricaria recutita	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+499	Laurus nobilis	Lavandula angustifolia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+500	Laurus nobilis	Lavandula stoechas	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+501	Laurus nobilis	Lavandula x intermedia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+502	Laurus nobilis	Lavandula latifolia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+503	Laurus nobilis	Lavandula dentata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+504	Laurus nobilis	Punica granatum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+509	Ficus carica	Mentha aquatica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+510	Ficus carica	Mentha arvensis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+511	Ficus carica	Mentha arvensis piperascens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+512	Ficus carica	Mentha arvensis villosa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+513	Ficus carica	Mentha asiatica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+514	Ficus carica	Mentha australis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+515	Ficus carica	Mentha cervina	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+516	Ficus carica	Mentha cunninghamia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+517	Ficus carica	Mentha diemenica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+518	Ficus carica	Mentha longifolia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+519	Ficus carica	Mentha pulegium	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+520	Ficus carica	Mentha requienii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+521	Ficus carica	Mentha satureioides	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+522	Ficus carica	Mentha species	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+523	Ficus carica	Mentha spicata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+524	Ficus carica	Mentha suaveolens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+525	Ficus carica	Mentha suaveolens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+526	Ficus carica	Mentha x gracilis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+527	Ficus carica	Mentha x piperita citrata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+528	Ficus carica	Mentha x piperita officinalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+529	Ficus carica	Mentha x piperita vulgaris	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+530	Ficus carica	Mentha x smithiana	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+531	Ficus carica	Mentha x villosa alopecuroides	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+532	Ficus carica	Matteuccia struthiopteris	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+533	Ficus carica	Foeniculum vulgare	FALSE	FALSE	FALSE	attracts wasp that polinate	FALSE	FALSE	FALSE
+537	Ficus carica	Anethum graveolens	FALSE	FALSE	FALSE	attracts wasp that polinate	FALSE	FALSE	FALSE
+539	Amelanchier alnifolia	Alnus glutinosa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+540	Amelanchier alnifolia	Morus rubra	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+541	Amelanchier alnifolia	Diospyros kaki	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+542	Amelanchier alnifolia	Ribes uva-crispa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+543	Amelanchier alnifolia	Urtica dioica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+544	Amelanchier alnifolia	Tropaeolum majus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+545	Amelanchier alnifolia	Borago officinalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+546	Amelanchier alnifolia	Vicia villosa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+547	Amelanchier alnifolia	Hydrangea serrata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+548	Amelanchier alnifolia	Berberis thunbergii	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+549	Amelanchier alnifolia	Heuchera americana	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+550	Amelanchier alnifolia	Heuchera cylindrica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+551	Amelanchier alnifolia	Heuchera diversifolia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+552	Amelanchier alnifolia	Heuchera glabra	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+553	Amelanchier alnifolia	Heuchera micrantha	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+554	Amelanchier alnifolia	Heuchera sanguinea	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+555	Amelanchier alnifolia	Heuchera versicolor	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+556	Amelanchier alnifolia	Cornus mas	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+557	Amelanchier alnifolia	Forsythia suspensa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+558	Amelanchier alnifolia	Forsythia viridissima	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+559	Amelanchier alnifolia	Forsythia x intermedia	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+560	Amelanchier alnifolia	Viburnum betulifolium	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+561	Amelanchier alnifolia	Viburnum cassinoides	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+562	Amelanchier alnifolia	Viburnum cordifolium	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+563	Amelanchier alnifolia	Viburnum corylifolium	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+564	Amelanchier alnifolia	Viburnum cotinifolium	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+565	Amelanchier alnifolia	Viburnum cylindricum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+566	Amelanchier alnifolia	Viburnum dentatum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+567	Amelanchier alnifolia	Viburnum dilatatum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+568	Amelanchier alnifolia	Viburnum edule	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+569	Amelanchier alnifolia	Viburnum erosum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+570	Amelanchier alnifolia	Viburnum erubescens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+571	Amelanchier alnifolia	Viburnum erubescens gracilipes	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+572	Amelanchier alnifolia	Viburnum farreri	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+573	Amelanchier alnifolia	Viburnum foetens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+574	Amelanchier alnifolia	Viburnum fordiae	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+575	Amelanchier alnifolia	Viburnum furcatum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+576	Amelanchier alnifolia	Viburnum grandiflorum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+577	Amelanchier alnifolia	Viburnum japonicum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+578	Amelanchier alnifolia	Viburnum opulus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+579	Amelanchier alnifolia	Viburnum plicatum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+580	Amelanchier alnifolia	Viburnum trilobum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+581	Corylus avellana	Monarda fistulosa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+582	Corylus avellana	Calendula officinalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+583	Corylus avellana	Achillea millefolium	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+584	Corylus avellana	Hypericum perforatum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+585	Corylus avellana	Ajuga australis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+586	Corylus avellana	Ajuga bracteosa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+587	Corylus avellana	Ajuga chamaepitys	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+588	Corylus avellana	Ajuga decumbens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+589	Corylus avellana	Ajuga iva	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+590	Corylus avellana	Ajuga reptans	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+591	Corylus avellana	Verbascum densiflorum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+592	Corylus avellana	Allium tuberosum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+593	Corylus avellana	Raphanus sativus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+594	Ficus carica	Portulaca oleracea	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+595	Ficus carica	Symphytum officinale	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+596	Prunus domestica	Malva sylvestris	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+597	Prunus domestica	Symphytum officinale	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+598	Prunus domestica	Allium sativum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+599	Prunus domestica	Althaea officinalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+601	Ficus carica	Ruta graveolens	TRUE	TRUE					
+602	Juniperus communis	Origanum vulgare							
+603	Juniperus communis	Crataegus douglasii				Plants are sometimes attacked by a rust, this fungus has an aecidial stage on hawthorn (Crataegus spp.	TRUE	TRUE	
+604	Sambucus canadensis	Ribes nigrum							
+605	Sambucus canadensis	Ribes montigenum							
+606	Sambucus canadensis	Ribes uva-crispa							
+607	Pinus cembra	Coriandrum sativum							
+608	Pinus cembra	Ruta graveolens							
+609	Pinus cembra	Origanum vulgare							
+610	Pinus cembra	Melissa officinalis							
+611	Pinus cembra	Eruca vesicaria sativa							
+612	Pinus cembra	Achillea millefolium							
+613	Pinus cembra	Calluna vulgaris							
+614	Pinus cembra	Borago officinalis							
+615	Pinus cembra	Chamaemelum nobile							
+616	Ribes odoratum	Hemerocallis lilioasphodelus							
+617	Ribes odoratum	Tulipa edulis							
+618	Ribes odoratum	Vaccinium ovatum							
+620	Elaeagnus x ebbingei	Buddleia davidii							
+622	Elaeagnus x ebbingei	Philadelphus coronarius							
+623	Elaeagnus x ebbingei	Philadelphus coronarius							
+624	Rosa rugosa	Nepeta cataria							
+625	Rosa rugosa	Lavandula angustifolia							
+626	Rosa rugosa	Allium sativum							
+627	Rosa rugosa	Ajuga australis							
+628	Rosa rugosa	Ajuga chamaepitys							
+629	Rosa rugosa	Ajuga decumbens							
+630	Rosa rugosa	Ajuga iva							
+631	Rosa rugosa	Ajuga reptans							
+632	Rosa rugosa	Mazus miquelii							
+633	Rosa rugosa	Mazus pumilus							
+634	Rosa rugosa	Mazus stachydifolius							
+635	Rosa rugosa	Viola cornuta							
+636	Rosa rugosa	Viola tricolor							
+637	Rosa rugosa	Viola x wittrockiana							
+638	Rosa rugosa	Cerastium fontanum							
+639	Rosa rugosa	Papaver orientale							
+640	Prunus domestica	Cydonia oblonga							
+641	Prunus domestica	Aronia melanocarpa							
+642	Prunus domestica	Trifolium repens							
+643	Prunus domestica	Lonicera caerulea							
+644	Prunus domestica	Borago officinalis							
+666	Prunus domestica	Allium ampeloprasum							
+667	Prunus domestica	Allium cepa proliferum							
+668	Prunus domestica	Allium cernuum							
+669	Prunus domestica	Allium porrum							
+670	Prunus domestica	Allium schoenoprasum							
+671	Prunus domestica	Allium senescens							
+672	Prunus domestica	Tropaeolum majus							
+673	Prunus domestica	Asparagus officinalis							
+674	Prunus domestica	Ocimum basilicum							
+675	Prunus domestica	Anethum graveolens							
+676	Prunus domestica	Vitis vinifera							
+677	Prunus domestica	Hyssopus officinalis							
+678	Prunus domestica	Allium tuberosum							
+679	Prunus domestica	Ruta graveolens							
+680	Prunus domestica	Fragaria x ananassa							
+681	Pinus cembra	Campanula carpatica							
+682	Pyrus communis	Allium sativum							
+683	Pyrus communis	Lavandula angustifolia							
+684	Pyrus communis	Tropaeolum majus							
+685	Pyrus communis	Mentha x piperita vulgaris							
+686	Pyrus communis	Mentha pulegium							
+687	Pyrus communis	Artemisia abrotanum							
+688	Pyrus communis	Allium schoenoprasum							
+689	Pyrus communis	Foeniculum vulgare							
+690	Pyrus communis	Pycnanthemum pilosum							
+691	Pyrus communis	Allium cepa							
+692	Pyrus communis	Mentha spicata							
+693	Arbutus unedo	Vaccinium ovatum							
+694	Arbutus unedo	Rosmarinus officinalis							
+695	Arbutus unedo	Lavandula angustifolia							
+696	Arbutus unedo	Calluna vulgaris							
+697	Brassica oleracea	Ocimum basilicum							
+698	Brassica oleracea	Cynara scolymus							
+699	Brassica oleracea	Beta vulgaris craca							
+700	Brassica oleracea	Apium graveolens dulce							
+701	Brassica oleracea	Cucumis sativus							
+702	Brassica oleracea	Lactuca sativa							
+703	Brassica oleracea	Allium cepa							
+704	Brassica oleracea	Pisum sativum							
+705	Brassica oleracea	Solanum tuberosum							
+706	Brassica oleracea	Raphanus sativus							
+707	Brassica oleracea	Spinacia oleracea							
+708	Brassica oleracea	Allium sativum							
+709	Brassica oleracea	Anethum graveolens							
+710	Brassica oleracea	Matricaria chamomilla							
+711	Brassica oleracea	Rosmarinus officinalis							
+712	Brassica oleracea	Salvia officinalis							
+713	Brassica oleracea	Thymus vulgaris							
+714	Brassica oleracea	Hyssopus officinalis							
+715	Brassica oleracea	Tropaeolum majus							
+716	Myrica californica	Arctostaphylos uva-ursi							
+717	Lonicera caerulea	Lonicera caerulea	TRUE	TRUE					
+718	Lonicera caerulea	Myrrhis odorata							
+719	Lonicera caerulea	Coreopsis auriculata							
+720	Pyrus communis	Pisum sativum							
+721	Pyrus communis	Phaseolus vulgaris							
+722	Pyrus communis	Chamaemelum nobile							
+723	Pyrus communis	Borago officinalis							
+724	Pyrus communis	Trifolium repens							
+725	Pyrus communis	Trifolium pratense							
+726	Pyrus communis	Trifolium incarnatum							
+727	Pyrus communis	Solanum melongena							
+728	Pyrus communis	Echinacea angustifolia							
+729	Pyrus communis	Echinacea purpurea							
+730	Pyrus communis	Elaeagnus multiflora							
+732	Corylus avellana	Papaver orientale							
+733	Corylus avellana	Viburnum opulus 							
+734	Corylus avellana	Viburnum edule							
+735	Corylus avellana	Viburnum x bodnantense							
+736	Capsicum annuum	Raphanus sativus							
+737	Capsicum annuum	Vicia faba major							
+738	Capsicum annuum	Phaseolus vulgaris							
+739	Capsicum annuum	Pisum sativum							
+740	Capsicum annuum	Allium schoenoprasum							
+741	Capsicum annuum	Allium cepa							
+742	Capsicum annuum	Allium porrum							
+743	Capsicum annuum	Ocimum basilicum							
+744	Capsicum annuum	Tropaeolum majus							
+745	Capsicum annuum	Spinacia oleracea							
+746	Capsicum annuum	Beta vulgaris flavescens							
+747	Capsicum annuum	Lycopersicon esculentum							
+748	Capsicum annuum	Lactuca sativa							
+749	Capsicum annuum	Anethum graveolens							
+750	Capsicum annuum	Petroselinum crispum							
+751	Capsicum annuum	Origanum vulgare							
+752	Capsicum annuum	Rosmarinus officinalis							
+753	Pyrus communis	Achillea millefolium							
+754	Brassica oleracea	Allium cepa proliferum							
+755	Akebia quinata		FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+756	Clinopodium douglasii	Fragaria vesca	TRUE	FALSE	FALSE		FALSE	FALSE	FALSE
+757	Clinopodium douglasii	Rubus ursinus	TRUE	FALSE	FALSE		FALSE	FALSE	FALSE
+758	Clinopodium douglasii	Ribes sanguineum	TRUE	FALSE	FALSE		FALSE	FALSE	FALSE
+759	Sidalcea hendersonii		FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+760	Morchella esculenta	Pinus	TRUE	TRUE	TRUE		FALSE	FALSE	FALSE
+761	Morchella esculenta	Elm	TRUE	TRUE	TRUE		FALSE	FALSE	FALSE
+762	Morchella esculenta	Tulip	TRUE	TRUE	TRUE		FALSE	FALSE	FALSE
+763	Morchella esculenta	sassafras	TRUE	TRUE	TRUE		FALSE	FALSE	FALSE
+764	Morchella esculenta	Beech	TRUE	TRUE	TRUE		FALSE	FALSE	FALSE
+765	Morchella esculenta	Ash	FALSE	FALSE	TRUE		FALSE	FALSE	FALSE
+766	Morchella esculenta	sycamore	TRUE	TRUE	TRUE		FALSE	FALSE	FALSE
+767	Morchella esculenta	Hickory	TRUE	TRUE	TRUE		FALSE	FALSE	FALSE
+768	Allium sativum	Solanum lycopersicum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+769	Allium sativum	Solanum tuberosum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+770	Allium sativum	Petroselinum crispum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+771	Allium sativum	Brassica oleracea capitata	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+772	Allium sativum	Cucumis sativus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+773	Allium sativum	Beta vulgaris craca	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+774	Allium sativum	Brassica oleracea	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+775	Allium sativum	Brassica oleracea gongylodes	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+776	Allium sativum	Allium schoenoprasum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+777	Allium sativum	Lactuca sativa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+778	Allium sativum	Salvia officinalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+779	Allium sativum	Spinacia oleracea	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+780	Allium sativum	Capsicum annuum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+781	Allium sativum	Matricaria recutita	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+782	Allium sativum	Achillea millefolium	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+783	Allium sativum	Artemisia dracunculus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+784	Allium sativum	Daucus carota sativus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+785	Allium sativum	Anethum graveolens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+786	Allium sativum	Tropaeolum majus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+787	Allium sativum	Calendula officinalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+788	Allium sativum	Solanum melongena	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+789	Allium sativum	Brassica oleracea italica	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+790	Allium sativum	Ruta graveolens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+791	Allium sativum	Nepeta cataria	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+792	Allium sativum	Anethum graveolens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+793	Ocimum basilicum	Solanum lycopersicum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+794	Ocimum basilicum	Asparagus officinalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+795	Ocimum basilicum	Cucumis sativus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+796	Ocimum basilicum	Allium sativum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+797	Ocimum basilicum	Coriandrum sativum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+798	Ocimum basilicum	Foeniculum vulgare	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+799	Ocimum basilicum	Allium sativum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+800	Ocimum basilicum	Salvia officinalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+801	Ocimum basilicum	Rosmarinus officinalis	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+802	Ocimum basilicum	Origanum majorana	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+803	Rubus parviflorus	Ocimum basilicum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+804	Rubus parviflorus	Solanum lycopersicum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+805	Rubus parviflorus	Petroselinum crispum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+806	Pseudotsuga menziesii	Mahonia nervosa	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+807	Pseudotsuga menziesii	Gaultheria shallon	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+808	Pseudotsuga menziesii	Polystichum munitum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+809	Pseudotsuga menziesii	Symphoricarpos albus laevigatus	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+810	Pseudotsuga menziesii	Vaccinium ovatum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+811	Pseudotsuga menziesii	Mahonia repens	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+812	Pseudotsuga menziesii	Acer circinatum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+813	Allium cepa	Lactuca sativa	FALSE	FALSE	TRUE		FALSE	FALSE	FALSE
+814	Beta vulgaris craca	Brassica oleracea viridis	TRUE	FALSE	TRUE		FALSE	FALSE	FALSE
+815	Armoracia rusticana	Malus domestica	TRUE	FALSE	FALSE		FALSE	FALSE	FALSE
+816	Malus domestica	Armoracia rusticana	TRUE	FALSE	FALSE		FALSE	FALSE	FALSE
+817	Pastinaca sativa	Allium cepa	TRUE	FALSE	FALSE		FALSE	FALSE	FALSE
+818	Pastinaca sativa	Allium cernuum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+819	Pastinaca sativa	Allium porrum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+820	Pastinaca sativa	Allium sativum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+821	Pastinaca sativa	Allium ampeloprasum	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE
+822	Pastinaca sativa	Allium vineale	FALSE	FALSE	FALSE		FALSE	FALSE	FALSE

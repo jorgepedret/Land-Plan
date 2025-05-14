@@ -8,13 +8,14 @@ Your help is wanted, I (Jonathan) am not a programmer... yet...
 
 ## Requirements:
 
-* If you're on mac and get an error about java you need to have a Java Runtime Environment or JRE.  Go online and search for the newest one.  Download and install it.
+### Using on Mac
+* If you're on mac and get an error about Java you need to have a Java Development Kit or JDK.  
+Go online and search for the newest one. 
+Download and install it.
+(https://wiki.documentfoundation.org/Faq/General/InstallJava)
 
+### Using on Linux
 * LibreOffice version 7.3.5.2 and 7.2.7.2 work on linux.  other versions may give the error: The connection to the data source “LANdpLAN.odb” could not be established.  error in script file line 1 Unexpected token  UNIQUE, requires COLLATION in statement [SET DATABASE UNIQUE] ./connectivity/source/drivers/jdbc/Object.cxx:175
-
-* You must change the macro security settings in Libreoffice:
-	Open LibreOffice and got to:
-	>Tools>Options>LibreOffice>Security>Macro Security...>Medium
 
 * 32bit linux computers will crash unless you add a boot parameter to the kernel by:
 	From a terminal (or after pressing Alt + F2) run:
@@ -29,6 +30,11 @@ Your help is wanted, I (Jonathan) am not a programmer... yet...
 	On the next reboot, the kernel should be started with the boot parameter. To permanently remove it, simply remove the parameter from GRUB_CMDLINE_LINUX_DEFAULT and run sudo update-grub again.
 	To verify your changes, you can see exactly what parameters your kernel booted with by executing cat /proc/cmdline.
 
+### Setup
+* You must change the macro security settings in Libreoffice:
+	Open LibreOffice and got to:
+	>Tools>Options>LibreOffice>Security>Macro Security...>Medium
+
 * Open up the LANdpLAN.odb file.
 
 * you need to tell the databse where the files are:  Go to Edit>Database>Properties: and change the file address to reflect your setup
@@ -38,7 +44,7 @@ Your help is wanted, I (Jonathan) am not a programmer... yet...
   hsqldb:file:////home/workaway/Dropbox/LANdpLAN/LANdpLAN/mydb;default_schema=true;shutdown=true;hsqldb.default_table_type=c
 
 
-*to add images: to the Drawing>Plant_images>images folder.  Name them using caps for the first letter of each Genus, species with no spaces, ".jpg" at the end and ascending numbers if there are mor than one like GenusSpecies.jpg, GenusSpecies.jpg2, GenusSpecies.jpg3
+* to add images: to the Drawing>Plant_images>images folder.  Name them using caps for the first letter of each Genus, species with no spaces, ".jpg" at the end and ascending numbers if there are mor than one like GenusSpecies.jpg, GenusSpecies.jpg2, GenusSpecies.jpg3
 next use the file browser and opne the folder Drawing>Plant_images>images
 select all and copy.  (this copies all of the file paths in the folder)
 open aaaimages.ods
@@ -50,7 +56,7 @@ Givethe name "images", select definition and data, next> move all, next> right c
 
 
 *********************************************************************************
-*If you create a new Table you will need to:
+* If you create a new Table you will need to:
 
 1)
 use Tools > SQL... to add the AutoValue function to your Primary Key column as shown below...
