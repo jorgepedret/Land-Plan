@@ -1,0 +1,72 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  GROWER
+  WORKER
+  ADMIN
+}
+
+enum Shade {
+  full
+  partial
+  none
+}
+
+enum TaskStatus {
+  TODO
+  DOING
+  DONE
+}
+
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  role  Role   @default(GROWER)
+  plots Plot[] @relation("OwnerPlots")
+  tasks Task[] @relation("AssignedTasks")
+}
+
+model Plot {
+  id       Int    @id @default(autoincrement())
+  name     String
+  location String
+  ownerId  Int
+  owner    User   @relation("OwnerPlots", fields: [ownerId], references: [id])
+  beds     Bed[]
+}
+
+model Bed {
+  id     Int     @id @default(autoincrement())
+  name   String
+  shade  Shade
+  plotId Int
+  plot   Plot    @relation(fields: [plotId], references: [id])
+  plants Plant[]
+  tasks  Task[]
+}
+
+model Plant {
+  id         Int     @id @default(autoincrement())
+  commonName String
+  latinName  String?
+  bedId      Int
+  bed        Bed     @relation(fields: [bedId], references: [id])
+}
+
+model Task {
+  id               Int        @id @default(autoincrement())
+  title            String
+  status           TaskStatus @default(TODO)
+  dueDate          DateTime?
+  bedId            Int
+  bed              Bed        @relation(fields: [bedId], references: [id])
+  assignedToUserId Int?
+  assignedTo       User?      @relation("AssignedTasks", fields: [assignedToUserId], references: [id])
+}
