@@ -1,0 +1,38 @@
+# Normalize line endings to LF in repo, convert on checkout as needed
+* text=auto eol=lf
+
+# Ensure shell scripts stay LF
+*.sh text eol=lf
+
+# Treat these as binary (no diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.mp3 binary
+*.mp4 binary
+*.mov binary
+
+# Improve diffs for common text formats
+*.md text linguist-language=Markdown
+*.yml text linguist-language=YAML
+*.yaml text linguist-language=YAML
+*.json text linguist-language=JSON
+
+# Make sure TypeScript is recognized (useful if mixed languages)
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+# Prisma schema as Prisma for GitHub linguist
+*.prisma linguist-language=Prisma
+
+# Lockfiles treated as text but no eol churn
+package-lock.json -text
+yarn.lock -text
+pnpm-lock.yaml -text
