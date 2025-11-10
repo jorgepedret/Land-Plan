@@ -1,5 +1,6 @@
-node_modules
-# Keep environment variables out of version control
+# Generated client and local DB are safe to ignore (client re-generates in CI)
+node_modules/
+dist/
 .env
-
-/generated/prisma
+prisma/dev.db
+prisma/dev.db-journal
